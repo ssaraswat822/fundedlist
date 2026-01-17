@@ -1,0 +1,540 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FundedList — Jobs at Recently Funded Startups</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        
+        :root {
+            --bg: #fafafa;
+            --card-bg: #ffffff;
+            --text-primary: #111111;
+            --text-secondary: #666666;
+            --text-muted: #999999;
+            --border: #e5e5e5;
+            --accent: #0066ff;
+            --accent-light: #e6f0ff;
+            --tag-bg: #f0f0f0;
+            --green: #00a67d;
+            --green-light: #e6f7f2;
+            --purple: #7c3aed;
+            --purple-light: #ede9fe;
+        }
+        
+        body {
+            font-family: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
+            background: var(--bg);
+            color: var(--text-primary);
+            line-height: 1.5;
+            -webkit-font-smoothing: antialiased;
+        }
+        
+        nav {
+            position: sticky;
+            top: 0;
+            background: rgba(250, 250, 250, 0.9);
+            backdrop-filter: blur(10px);
+            border-bottom: 1px solid var(--border);
+            z-index: 100;
+        }
+        
+        .nav-inner {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 16px 24px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        
+        .logo {
+            font-weight: 700;
+            font-size: 1.1rem;
+            color: var(--text-primary);
+            text-decoration: none;
+            display: flex;
+            align-items: center;
+            gap: 8px;
+        }
+        
+        .logo-icon {
+            width: 26px;
+            height: 26px;
+            background: var(--green);
+            border-radius: 6px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: white;
+            font-size: 12px;
+            font-weight: 700;
+        }
+        
+        .nav-links { display: flex; gap: 24px; }
+        .nav-links a {
+            color: var(--text-secondary);
+            text-decoration: none;
+            font-size: 0.875rem;
+            font-weight: 500;
+            cursor: pointer;
+        }
+        .nav-links a:hover, .nav-links a.active { color: var(--text-primary); }
+        
+        .tabs {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 20px 24px 0;
+            display: flex;
+            gap: 4px;
+            border-bottom: 1px solid var(--border);
+        }
+        
+        .tab {
+            padding: 12px 20px;
+            font-size: 0.9rem;
+            font-weight: 500;
+            color: var(--text-secondary);
+            background: none;
+            border: none;
+            cursor: pointer;
+            border-bottom: 2px solid transparent;
+            margin-bottom: -1px;
+        }
+        .tab:hover { color: var(--text-primary); }
+        .tab.active { color: var(--text-primary); border-bottom-color: var(--text-primary); }
+        
+        .hero {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 40px 24px 28px;
+        }
+        
+        .hero h1 { font-size: 2rem; font-weight: 700; letter-spacing: -0.03em; margin-bottom: 8px; }
+        .hero p { font-size: 1rem; color: var(--text-secondary); max-width: 500px; }
+        
+        .hero-stats { display: flex; gap: 32px; margin-top: 24px; }
+        .hero-stat { display: flex; align-items: baseline; gap: 6px; }
+        .hero-stat-number { font-size: 1.3rem; font-weight: 700; }
+        .hero-stat-label { font-size: 0.85rem; color: var(--text-muted); }
+        
+        .controls {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 0 24px 20px;
+            display: flex;
+            gap: 16px;
+            flex-wrap: wrap;
+            align-items: center;
+        }
+        
+        .search-box {
+            flex: 1;
+            min-width: 250px;
+            max-width: 360px;
+            position: relative;
+        }
+        
+        .search-box input {
+            width: 100%;
+            padding: 10px 16px 10px 40px;
+            border: 1px solid var(--border);
+            border-radius: 8px;
+            font-size: 0.9rem;
+            background: var(--card-bg);
+        }
+        .search-box input:focus { outline: none; border-color: var(--accent); box-shadow: 0 0 0 3px var(--accent-light); }
+        .search-box svg { position: absolute; left: 12px; top: 50%; transform: translateY(-50%); color: var(--text-muted); width: 18px; height: 18px; }
+        
+        .filters { display: flex; gap: 6px; flex-wrap: wrap; }
+        
+        .filter-btn {
+            padding: 7px 12px;
+            border: 1px solid var(--border);
+            border-radius: 6px;
+            background: var(--card-bg);
+            color: var(--text-secondary);
+            font-size: 0.8rem;
+            font-weight: 500;
+            cursor: pointer;
+        }
+        .filter-btn:hover { border-color: var(--text-muted); color: var(--text-primary); }
+        .filter-btn.active { background: var(--text-primary); border-color: var(--text-primary); color: white; }
+        
+        .main-content { max-width: 1200px; margin: 0 auto; padding: 0 24px 60px; }
+        
+        .section-header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-bottom: 16px;
+            padding-bottom: 12px;
+            border-bottom: 1px solid var(--border);
+        }
+        .section-title { font-size: 0.75rem; font-weight: 600; text-transform: uppercase; letter-spacing: 0.08em; color: var(--text-muted); }
+        .count-label { font-size: 0.8rem; color: var(--text-muted); }
+        
+        .company-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(320px, 1fr)); gap: 10px; }
+        
+        .company-card {
+            background: var(--card-bg);
+            border: 1px solid var(--border);
+            border-radius: 10px;
+            padding: 18px;
+            transition: all 0.15s;
+            cursor: pointer;
+            text-decoration: none;
+            color: inherit;
+            display: block;
+        }
+        .company-card:hover { border-color: #ccc; transform: translateY(-1px); box-shadow: 0 4px 12px rgba(0,0,0,0.04); }
+        
+        .company-top { display: flex; justify-content: space-between; align-items: flex-start; margin-bottom: 6px; }
+        .company-name { font-size: 0.95rem; font-weight: 600; }
+        .funding-amount { background: var(--green-light); color: var(--green); padding: 2px 7px; border-radius: 4px; font-size: 0.72rem; font-weight: 600; }
+        .company-tagline { color: var(--text-secondary); font-size: 0.85rem; margin-bottom: 10px; line-height: 1.4; }
+        .company-meta { display: flex; gap: 10px; flex-wrap: wrap; font-size: 0.78rem; color: var(--text-muted); }
+        .meta-dot { width: 3px; height: 3px; background: var(--text-muted); border-radius: 50%; margin-top: 7px; }
+        
+        .company-investors { display: flex; gap: 5px; flex-wrap: wrap; margin-top: 10px; }
+        .investor-badge { background: var(--purple-light); color: var(--purple); padding: 2px 7px; border-radius: 4px; font-size: 0.68rem; font-weight: 500; }
+        .company-tags { display: flex; gap: 5px; flex-wrap: wrap; margin-top: 8px; }
+        .tag { background: var(--tag-bg); color: var(--text-secondary); padding: 2px 7px; border-radius: 4px; font-size: 0.68rem; font-weight: 500; }
+        
+        .vc-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(260px, 1fr)); gap: 10px; }
+        
+        .vc-card {
+            background: var(--card-bg);
+            border: 1px solid var(--border);
+            border-radius: 10px;
+            padding: 18px;
+            cursor: pointer;
+            transition: all 0.15s;
+        }
+        .vc-card:hover { border-color: #ccc; box-shadow: 0 4px 12px rgba(0,0,0,0.04); }
+        .vc-card.selected { border-color: var(--purple); background: var(--purple-light); }
+        
+        .vc-header { display: flex; align-items: center; gap: 10px; margin-bottom: 8px; }
+        .vc-logo { font-size: 1.4rem; }
+        .vc-name { font-weight: 600; font-size: 0.95rem; }
+        .vc-stats { display: flex; gap: 14px; margin-bottom: 10px; font-size: 0.78rem; color: var(--text-secondary); }
+        .vc-focus { display: flex; gap: 5px; flex-wrap: wrap; }
+        .focus-tag { background: var(--tag-bg); padding: 2px 7px; border-radius: 4px; font-size: 0.68rem; color: var(--text-secondary); }
+        .vc-notable { margin-top: 10px; font-size: 0.72rem; color: var(--text-muted); }
+        
+        .section { display: none; }
+        .section.active { display: block; }
+        
+        .selected-vc-banner {
+            background: var(--purple-light);
+            border: 1px solid var(--purple);
+            border-radius: 8px;
+            padding: 10px 14px;
+            margin-bottom: 16px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        .selected-vc-banner span { font-size: 0.85rem; color: var(--purple); font-weight: 500; }
+        .clear-vc-btn { background: var(--purple); color: white; border: none; padding: 5px 10px; border-radius: 4px; font-size: 0.78rem; cursor: pointer; }
+        
+        footer { border-top: 1px solid var(--border); background: var(--card-bg); }
+        .footer-inner { max-width: 1200px; margin: 0 auto; padding: 28px 24px; display: flex; justify-content: space-between; align-items: center; flex-wrap: wrap; gap: 16px; }
+        .footer-left { font-size: 0.82rem; color: var(--text-muted); }
+        .footer-links { display: flex; gap: 20px; }
+        .footer-links a { color: var(--text-secondary); text-decoration: none; font-size: 0.82rem; }
+        
+        .empty-state { text-align: center; padding: 50px 20px; color: var(--text-muted); grid-column: 1 / -1; }
+        .empty-state h3 { font-size: 1rem; margin-bottom: 6px; color: var(--text-secondary); }
+        
+        @media (max-width: 768px) {
+            .hero h1 { font-size: 1.6rem; }
+            .company-grid, .vc-grid { grid-template-columns: 1fr; }
+            .nav-links { display: none; }
+            .controls { flex-direction: column; align-items: stretch; }
+            .search-box { max-width: none; }
+        }
+    </style>
+</head>
+<body>
+    <nav>
+        <div class="nav-inner">
+            <a href="/" class="logo">
+                <div class="logo-icon">F</div>
+                FundedList
+            </a>
+            <div class="nav-links">
+                <a class="active" onclick="showSection('companies')">Companies</a>
+                <a onclick="showSection('vcs')">VCs</a>
+                <a href="#">About</a>
+            </div>
+        </div>
+    </nav>
+    
+    <div class="tabs">
+        <button class="tab active" onclick="showSection('companies')">🏢 Companies</button>
+        <button class="tab" onclick="showSection('vcs')">💰 VCs</button>
+    </div>
+    
+    <!-- COMPANIES SECTION -->
+    <section id="companies-section" class="section active">
+        <div class="hero">
+            <h1>Discover startups that just raised funding</h1>
+            <p>Companies with fresh capital are hiring. Find your next role at a startup with runway.</p>
+            <div class="hero-stats">
+                <div class="hero-stat">
+                    <span class="hero-stat-number" id="stat-companies">22</span>
+                    <span class="hero-stat-label">companies</span>
+                </div>
+                <div class="hero-stat">
+                    <span class="hero-stat-number" id="stat-raised">$22.5B</span>
+                    <span class="hero-stat-label">raised</span>
+                </div>
+                <div class="hero-stat">
+                    <span class="hero-stat-number" id="stat-jobs">783</span>
+                    <span class="hero-stat-label">open roles</span>
+                </div>
+            </div>
+        </div>
+        
+        <div class="controls">
+            <div class="search-box">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                    <circle cx="11" cy="11" r="8"></circle>
+                    <path d="m21 21-4.35-4.35"></path>
+                </svg>
+                <input type="text" id="search" placeholder="Search companies...">
+            </div>
+            <div class="filters" id="category-filters">
+                <button class="filter-btn active" data-filter="all">All</button>
+                <button class="filter-btn" data-filter="ai">AI</button>
+                <button class="filter-btn" data-filter="fintech">Fintech</button>
+                <button class="filter-btn" data-filter="health">Health</button>
+                <button class="filter-btn" data-filter="climate">Climate</button>
+                <button class="filter-btn" data-filter="dev-tools">Dev Tools</button>
+            </div>
+        </div>
+        
+        <main class="main-content">
+            <div id="vc-filter-banner" class="selected-vc-banner" style="display: none;">
+                <span>Showing companies backed by <strong id="selected-vc-name"></strong></span>
+                <button class="clear-vc-btn" onclick="clearVcFilter()">Clear filter</button>
+            </div>
+            <div class="section-header">
+                <span class="section-title">Recently Funded — January 2026</span>
+                <span class="count-label" id="showing-count">Showing 22 companies</span>
+            </div>
+            <div class="company-grid" id="company-grid"></div>
+        </main>
+    </section>
+    
+    <!-- VCS SECTION -->
+    <section id="vcs-section" class="section">
+        <div class="hero">
+            <h1>Top Venture Capital Firms</h1>
+            <p>Browse portfolios from the world's leading VCs. Click a firm to filter companies by their investments.</p>
+            <div class="hero-stats">
+                <div class="hero-stat"><span class="hero-stat-number">10</span><span class="hero-stat-label">VCs tracked</span></div>
+                <div class="hero-stat"><span class="hero-stat-number">11,500+</span><span class="hero-stat-label">portfolio companies</span></div>
+                <div class="hero-stat"><span class="hero-stat-number">$280B+</span><span class="hero-stat-label">AUM</span></div>
+            </div>
+        </div>
+        <main class="main-content">
+            <div class="section-header">
+                <span class="section-title">Click a VC to filter funded companies</span>
+            </div>
+            <div class="vc-grid" id="vc-grid"></div>
+        </main>
+    </section>
+    
+    <footer>
+        <div class="footer-inner">
+            <div class="footer-left">Updated Jan 17, 2026 · Data from startups.gallery, TechCrunch, Crunchbase</div>
+            <div class="footer-links">
+                <a href="#">Submit</a>
+                <a href="#">API</a>
+                <a href="#">About</a>
+            </div>
+        </div>
+    </footer>
+    
+    <script>
+        const vcs = [
+            { id: "yc", name: "Y Combinator", shortName: "YC", logo: "🟠", aum: "N/A", founded: 2005, portfolioCount: 5000, focus: ["Early Stage", "All Sectors"], notable: ["Stripe", "Airbnb", "Dropbox", "Reddit"] },
+            { id: "sequoia", name: "Sequoia Capital", shortName: "Sequoia", logo: "🌲", aum: "$56B", founded: 1972, portfolioCount: 2947, focus: ["Consumer", "Enterprise", "Fintech"], notable: ["Stripe", "Airbnb", "DoorDash", "Linear"] },
+            { id: "a16z", name: "Andreessen Horowitz", shortName: "a16z", logo: "🅰️", aum: "$46B", founded: 2009, portfolioCount: 1119, focus: ["AI", "Crypto", "Fintech", "Defense"], notable: ["Coinbase", "GitHub", "Roblox", "Figma"] },
+            { id: "accel", name: "Accel", shortName: "Accel", logo: "⚡", aum: "$50B", founded: 1983, portfolioCount: 500, focus: ["Enterprise", "Consumer", "Fintech"], notable: ["Facebook", "Slack", "Spotify"] },
+            { id: "general-catalyst", name: "General Catalyst", shortName: "GC", logo: "🌐", aum: "$25B", founded: 2000, portfolioCount: 500, focus: ["Enterprise", "Consumer", "Healthcare"], notable: ["Stripe", "Airbnb", "HubSpot"] },
+            { id: "greylock", name: "Greylock Partners", shortName: "Greylock", logo: "🔷", aum: "$5B", founded: 1965, portfolioCount: 476, focus: ["Enterprise", "Consumer", "AI"], notable: ["Discord", "Figma", "LinkedIn"] },
+            { id: "lightspeed", name: "Lightspeed", shortName: "Lightspeed", logo: "💡", aum: "$18B", founded: 2000, portfolioCount: 400, focus: ["Enterprise", "Consumer"], notable: ["Snap", "Affirm", "Carta"] },
+            { id: "khosla", name: "Khosla Ventures", shortName: "Khosla", logo: "🔬", aum: "$15B", founded: 2004, portfolioCount: 300, focus: ["Deep Tech", "Climate", "AI"], notable: ["OpenAI", "Impossible Foods"] },
+            { id: "founders-fund", name: "Founders Fund", shortName: "FF", logo: "🚀", aum: "$17B", founded: 2005, portfolioCount: 200, focus: ["Deep Tech", "Defense", "Space"], notable: ["SpaceX", "Palantir", "Anduril"] },
+            { id: "benchmark", name: "Benchmark", shortName: "Benchmark", logo: "📊", aum: "$4B", founded: 1995, portfolioCount: 150, focus: ["Marketplace", "Consumer"], notable: ["Uber", "Twitter", "Discord"] }
+        ];
+        
+        const companies = [
+            { name: "xAI", tagline: "Builds advanced AI systems at massive scale.", amount: "$20B", round: "Series E", daysAgo: "11d ago", category: "ai", tags: ["AI", "Infrastructure"], website: "https://x.ai", investors: ["a16z", "sequoia"], jobs: 150 },
+            { name: "Skild AI", tagline: "Creates software to help robots learn tasks.", amount: "$1.4B", round: "Series C", daysAgo: "3d ago", category: "ai", tags: ["AI", "Robotics"], website: "https://skild.ai", investors: ["sequoia", "lightspeed"], jobs: 45 },
+            { name: "Renewa", tagline: "Develops renewable energy infrastructure.", amount: "$502M", round: "Growth", daysAgo: "2d ago", category: "climate", tags: ["Climate", "Energy"], website: "https://renewa.com", investors: ["khosla"], jobs: 89 },
+            { name: "Rain", tagline: "Builds stablecoin payment infrastructure.", amount: "$250M", round: "Series C", daysAgo: "8d ago", category: "fintech", tags: ["Fintech", "Crypto"], website: "https://rain.com", investors: ["a16z", "lightspeed"], jobs: 34 },
+            { name: "Torq", tagline: "Automates security operations with AI.", amount: "$140M", round: "Series D", daysAgo: "5d ago", category: "dev-tools", tags: ["Security", "Automation"], website: "https://torq.io", investors: ["greylock"], jobs: 28 },
+            { name: "Deepgram", tagline: "Powers speech-to-text with AI models.", amount: "$130M", round: "Series C", daysAgo: "4d ago", category: "ai", tags: ["AI", "Speech"], website: "https://deepgram.com", investors: ["yc", "accel"], jobs: 22 },
+            { name: "Mytra", tagline: "Builds the operating system for supply chains.", amount: "$120M", round: "Series C", daysAgo: "2d ago", category: "dev-tools", tags: ["Supply Chain"], website: "https://mytra.com", investors: ["general-catalyst"], jobs: 41 },
+            { name: "Corgi", tagline: "Reimagines consumer finance experiences.", amount: "$108M", round: "Series A", daysAgo: "9d ago", category: "fintech", tags: ["Fintech", "Consumer"], website: "https://corgi.com", investors: ["yc", "accel"], jobs: 18 },
+            { name: "Swap", tagline: "Modernizes cross-border commerce.", amount: "$100M", round: "Series C", daysAgo: "10d ago", category: "fintech", tags: ["Fintech", "E-commerce"], website: "https://swap.com", investors: ["sequoia", "general-catalyst"], jobs: 52 },
+            { name: "Higgsfield", tagline: "Generates AI-powered video content.", amount: "$80M", round: "Series A", daysAgo: "2d ago", category: "ai", tags: ["AI", "Video"], website: "https://higgsfield.ai", investors: ["accel", "yc"], jobs: 15 },
+            { name: "Proxima", tagline: "Delivers next-gen data analytics.", amount: "$80M", round: "Seed", daysAgo: "3d ago", category: "ai", tags: ["AI", "Analytics"], website: "https://proxima.ai", investors: ["benchmark"], jobs: 12 },
+            { name: "Listen Labs", tagline: "Transforms audio with AI technology.", amount: "$69M", round: "Series B", daysAgo: "3d ago", category: "ai", tags: ["AI", "Audio"], website: "https://listenlabs.com", investors: ["sequoia", "greylock"], jobs: 24 },
+            { name: "GovDash", tagline: "Helps companies win government contracts.", amount: "$30M", round: "Series B", daysAgo: "2d ago", category: "dev-tools", tags: ["GovTech", "AI"], website: "https://govdash.com", investors: ["yc", "founders-fund"], jobs: 19 },
+            { name: "Quadric", tagline: "Powers on-device AI inference chips.", amount: "$30M", round: "Series C", daysAgo: "2d ago", category: "ai", tags: ["AI", "Semiconductors"], website: "https://quadric.io", investors: ["khosla"], jobs: 31 },
+            { name: "Emversity", tagline: "Trains workers for AI-resistant careers.", amount: "$30M", round: "Series A", daysAgo: "3d ago", category: "health", tags: ["EdTech", "Healthcare"], website: "https://emversity.com", investors: ["lightspeed"], jobs: 67 },
+            { name: "Vista AI", tagline: "Automates MRI scanning for hospitals.", amount: "$29.5M", round: "Series B", daysAgo: "3d ago", category: "health", tags: ["Health", "AI"], website: "https://vista.ai", investors: ["general-catalyst", "khosla"], jobs: 22 },
+            { name: "Converge Bio", tagline: "Advances therapeutic development.", amount: "$25M", round: "Series A", daysAgo: "4d ago", category: "health", tags: ["Biotech"], website: "https://convergebio.com", investors: ["a16z"], jobs: 18 },
+            { name: "Project Eleven", tagline: "Secures digital assets post-quantum.", amount: "$20M", round: "Series A", daysAgo: "3d ago", category: "fintech", tags: ["Crypto", "Security"], website: "https://projecteleven.com", investors: ["a16z"], jobs: 14 },
+            { name: "Autonomous", tagline: "Builds next-gen autonomous systems.", amount: "$15M", round: "Pre-Seed", daysAgo: "10d ago", category: "ai", tags: ["AI", "Robotics"], website: "https://autonomous.com", investors: ["yc"], jobs: 8 },
+            { name: "Konnex", tagline: "Decentralizes autonomous labor.", amount: "$15M", round: "Seed", daysAgo: "2d ago", category: "fintech", tags: ["Blockchain", "Web3"], website: "https://konnex.io", investors: ["a16z"], jobs: 11 },
+            { name: "SkyFi", tagline: "Delivers AI-first Earth intelligence.", amount: "$12.7M", round: "Series A", daysAgo: "3d ago", category: "climate", tags: ["Climate", "Satellite"], website: "https://skyfi.com", investors: ["founders-fund"], jobs: 16 },
+            { name: "Nuclera", tagline: "Engineers proteins at scale.", amount: "$12M", round: "Series C+", daysAgo: "2d ago", category: "health", tags: ["Biotech", "Protein"], website: "https://nuclera.com", investors: ["khosla", "greylock"], jobs: 38 }
+        ];
+        
+        let currentFilter = 'all';
+        let selectedVc = null;
+        
+        function updateStats() {
+            const filtered = getFilteredCompanies();
+            const totalRaised = filtered.reduce((sum, c) => {
+                const num = parseFloat(c.amount.replace(/[$BMK]/g, ''));
+                const mult = c.amount.includes('B') ? 1000 : 1;
+                return sum + (num * mult);
+            }, 0);
+            const totalJobs = filtered.reduce((sum, c) => sum + c.jobs, 0);
+            document.getElementById('stat-companies').textContent = filtered.length;
+            document.getElementById('stat-raised').textContent = `$${(totalRaised/1000).toFixed(1)}B`;
+            document.getElementById('stat-jobs').textContent = totalJobs;
+        }
+        
+        function getFilteredCompanies() {
+            let filtered = companies;
+            if (currentFilter !== 'all') filtered = filtered.filter(c => c.category === currentFilter);
+            if (selectedVc) filtered = filtered.filter(c => c.investors.includes(selectedVc));
+            const search = document.getElementById('search').value.toLowerCase();
+            if (search) {
+                filtered = filtered.filter(c => 
+                    c.name.toLowerCase().includes(search) ||
+                    c.tagline.toLowerCase().includes(search) ||
+                    c.tags.some(t => t.toLowerCase().includes(search))
+                );
+            }
+            return filtered;
+        }
+        
+        function renderCompanies() {
+            const grid = document.getElementById('company-grid');
+            const filtered = getFilteredCompanies();
+            document.getElementById('showing-count').textContent = `Showing ${filtered.length} companies`;
+            
+            const banner = document.getElementById('vc-filter-banner');
+            if (selectedVc) {
+                const vc = vcs.find(v => v.id === selectedVc);
+                document.getElementById('selected-vc-name').textContent = vc.name;
+                banner.style.display = 'flex';
+            } else {
+                banner.style.display = 'none';
+            }
+            
+            if (filtered.length === 0) {
+                grid.innerHTML = '<div class="empty-state"><h3>No companies found</h3><p>Try adjusting your filters</p></div>';
+                return;
+            }
+            
+            grid.innerHTML = filtered.map(company => {
+                const investorBadges = company.investors.map(vcId => {
+                    const vc = vcs.find(v => v.id === vcId);
+                    return vc ? `<span class="investor-badge">${vc.logo} ${vc.shortName}</span>` : '';
+                }).join('');
+                
+                return `
+                <a href="${company.website}" target="_blank" class="company-card">
+                    <div class="company-top">
+                        <span class="company-name">${company.name}</span>
+                        <span class="funding-amount">${company.amount}</span>
+                    </div>
+                    <div class="company-tagline">${company.tagline}</div>
+                    <div class="company-meta">
+                        <span>${company.round}</span>
+                        <span class="meta-dot"></span>
+                        <span>${company.daysAgo}</span>
+                        <span class="meta-dot"></span>
+                        <span>${company.jobs} jobs</span>
+                    </div>
+                    <div class="company-investors">${investorBadges}</div>
+                    <div class="company-tags">${company.tags.map(tag => `<span class="tag">${tag}</span>`).join('')}</div>
+                </a>`;
+            }).join('');
+            updateStats();
+        }
+        
+        function renderVCs() {
+            const grid = document.getElementById('vc-grid');
+            grid.innerHTML = vcs.map(vc => `
+                <div class="vc-card ${selectedVc === vc.id ? 'selected' : ''}" onclick="selectVc('${vc.id}')">
+                    <div class="vc-header">
+                        <span class="vc-logo">${vc.logo}</span>
+                        <span class="vc-name">${vc.name}</span>
+                    </div>
+                    <div class="vc-stats">
+                        <span>${vc.portfolioCount.toLocaleString()} companies</span>
+                        <span>Est. ${vc.founded}</span>
+                        ${vc.aum !== 'N/A' ? `<span>${vc.aum} AUM</span>` : ''}
+                    </div>
+                    <div class="vc-focus">${vc.focus.slice(0, 4).map(f => `<span class="focus-tag">${f}</span>`).join('')}</div>
+                    <div class="vc-notable">Notable: ${vc.notable.slice(0, 4).join(', ')}</div>
+                </div>
+            `).join('');
+        }
+        
+        function selectVc(vcId) {
+            selectedVc = selectedVc === vcId ? null : vcId;
+            renderVCs();
+            showSection('companies');
+            renderCompanies();
+        }
+        
+        function clearVcFilter() {
+            selectedVc = null;
+            renderVCs();
+            renderCompanies();
+        }
+        
+        function showSection(sectionId) {
+            document.querySelectorAll('.section').forEach(s => s.classList.remove('active'));
+            document.querySelectorAll('.tab').forEach(t => t.classList.remove('active'));
+            document.querySelectorAll('.nav-links a').forEach(a => a.classList.remove('active'));
+            document.getElementById(`${sectionId}-section`).classList.add('active');
+            document.querySelectorAll('.tab').forEach(t => {
+                if (t.textContent.toLowerCase().includes(sectionId)) t.classList.add('active');
+            });
+            document.querySelectorAll('.nav-links a').forEach(a => {
+                if (a.textContent.toLowerCase().includes(sectionId)) a.classList.add('active');
+            });
+        }
+        
+        document.querySelectorAll('#category-filters .filter-btn').forEach(btn => {
+            btn.addEventListener('click', () => {
+                document.querySelectorAll('#category-filters .filter-btn').forEach(b => b.classList.remove('active'));
+                btn.classList.add('active');
+                currentFilter = btn.dataset.filter;
+                renderCompanies();
+            });
+        });
+        
+        document.getElementById('search').addEventListener('input', renderCompanies);
+        renderCompanies();
+        renderVCs();
+    </script>
+</body>
+</html>
