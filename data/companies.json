@@ -1,0 +1,149 @@
+{
+  "companies": [
+    {
+      "name": "AI security firm",
+      "amount": "$40.0M",
+      "round": "Series A",
+      "tagline": "The company used an AI-native platform to help companies fight threats.",
+      "category": "ai",
+      "source": "https://techcrunch.com/category/venture/feed/",
+      "link": "https://techcrunch.com/2026/01/14/ai-security-firm-depthfirst-announces-40-million-series-a/",
+      "published": "Wed, 14 Jan 2026 15:50:17 +0000",
+      "id": "company-1",
+      "daysAgo": "1d ago",
+      "tags": [
+        "Ai"
+      ],
+      "investors": []
+    },
+    {
+      "name": "Superorganism raises",
+      "amount": "$25.0M",
+      "round": "Funding",
+      "tagline": "Superorganism backs companies across three categories: tech that slows or reverses extinction, startups that operate at the intersection of climate an",
+      "category": "climate",
+      "source": "https://techcrunch.com/category/venture/feed/",
+      "link": "https://techcrunch.com/2026/01/13/superorganism-raises-25m-to-back-biodiversity-startups/",
+      "published": "Tue, 13 Jan 2026 12:30:00 +0000",
+      "id": "company-2",
+      "daysAgo": "1d ago",
+      "tags": [
+        "Climate"
+      ],
+      "investors": []
+    },
+    {
+      "name": "These Gen Zers just raised",
+      "amount": "$11.75M",
+      "round": "Funding",
+      "tagline": "African defense company Terra comes out of stealth with an $11.75M round led by Joe Lonsdale's 8VC.",
+      "category": "other",
+      "source": "https://techcrunch.com/category/venture/feed/",
+      "link": "https://techcrunch.com/2026/01/12/these-gen-zers-just-raised-11-75m-to-put-africas-defense-back-in-the-hands-of-africans/",
+      "published": "Mon, 12 Jan 2026 08:00:00 +0000",
+      "id": "company-3",
+      "daysAgo": "1d ago",
+      "tags": [
+        "Other"
+      ],
+      "investors": []
+    },
+    {
+      "name": "The venture firm that ate Silicon Valley just raised another",
+      "amount": "$15.0B",
+      "round": "Funding",
+      "tagline": "In a blog post published Friday morning, Ben Horowitz writes that \"as the American leader in Venture Capital, the fate of new technology in the United",
+      "category": "ai",
+      "source": "https://techcrunch.com/category/venture/feed/",
+      "link": "https://techcrunch.com/2026/01/09/the-venture-firm-that-ate-silicon-valley/",
+      "published": "Fri, 09 Jan 2026 13:00:00 +0000",
+      "id": "company-4",
+      "daysAgo": "1d ago",
+      "tags": [
+        "Ai"
+      ],
+      "investors": []
+    },
+    {
+      "name": "Discord and Mercor investor Niko Bonatsos departs General Catalyst",
+      "amount": "Undisclosed",
+      "round": "Seed",
+      "tagline": "Bonatsos spent 15 years at GC, and until last year led the firm's seed investing strategy.",
+      "category": "other",
+      "source": "https://techcrunch.com/category/venture/feed/",
+      "link": "https://techcrunch.com/2026/01/07/discord-and-mercor-investor-niko-bonatsos-departs-general-catalyst-plans-new-vc-firm/",
+      "published": "Wed, 07 Jan 2026 23:31:29 +0000",
+      "id": "company-5",
+      "daysAgo": "1d ago",
+      "tags": [
+        "Other"
+      ],
+      "investors": []
+    },
+    {
+      "name": "Shopify competitor Swap raises",
+      "amount": "$100.0M",
+      "round": "Funding",
+      "tagline": "VC firms DST Global and Iconiq are piling into e-commerce startup Swap Commerce, which is going up against Shopify.",
+      "category": "ai",
+      "source": "https://techcrunch.com/category/venture/feed/",
+      "link": "https://techcrunch.com/2026/01/07/shopify-competitor-swap-raises-100m-six-months-after-raising-40m/",
+      "published": "Wed, 07 Jan 2026 19:10:33 +0000",
+      "id": "company-6",
+      "daysAgo": "1d ago",
+      "tags": [
+        "Ai"
+      ],
+      "investors": []
+    },
+    {
+      "name": "LMArena lands",
+      "amount": "$1.7B",
+      "round": "Funding",
+      "tagline": "LMArena, which started as a UC Berkeley research project, has raised about $250 million total and become a unicorn in about seven months.",
+      "category": "ai",
+      "source": "https://techcrunch.com/category/venture/feed/",
+      "link": "https://techcrunch.com/2026/01/06/lmarena-lands-1-7b-valuation-four-months-after-launching-its-product/",
+      "published": "Tue, 06 Jan 2026 19:35:55 +0000",
+      "id": "company-7",
+      "daysAgo": "1d ago",
+      "tags": [
+        "Ai"
+      ],
+      "investors": []
+    },
+    {
+      "name": "How World Cup champion Mario G",
+      "amount": "Undisclosed",
+      "round": "Funding",
+      "tagline": "Companion M, G\u00f6tze\u2019s personal investment vehicle, now has a portfolio of more than 70 companies, two of which became unicorns in 2025",
+      "category": "other",
+      "source": "https://techcrunch.com/category/venture/feed/",
+      "link": "https://techcrunch.com/2026/01/06/how-world-cup-champion-mario-gotze-built-a-parallel-career-as-an-angel-investor/",
+      "published": "Tue, 06 Jan 2026 18:18:02 +0000",
+      "id": "company-8",
+      "daysAgo": "1d ago",
+      "tags": [
+        "Other"
+      ],
+      "investors": []
+    },
+    {
+      "name": "Almost 80 European deep tech university spinouts reached",
+      "amount": "$1.0B",
+      "round": "Funding",
+      "tagline": "According to Dealroom\u2019s European Spinout Report 2025, 76 European deep tech and life sciences spinouts have either reached $1 billion valuations, $100",
+      "category": "climate",
+      "source": "https://techcrunch.com/category/venture/feed/",
+      "link": "https://techcrunch.com/2025/12/30/76-european-deep-tech-university-spinouts-reached-unicorn-or-centaur-status/",
+      "published": "Tue, 30 Dec 2025 18:00:00 +0000",
+      "id": "company-9",
+      "daysAgo": "1d ago",
+      "tags": [
+        "Climate"
+      ],
+      "investors": []
+    }
+  ],
+  "updated": "2026-01-18T00:53:08.776579"
+}

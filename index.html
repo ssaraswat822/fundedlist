@@ -236,7 +236,7 @@
     
     <footer>
         <div class="footer-inner">
-            <div class="footer-left">Updated Jan 17, 2026 · Data auto-refreshed daily</div>
+            <div class="footer-left">Updated Jan 18, 2026 · Data auto-refreshed daily</div>
             <div class="footer-links"><a href="#">Submit</a><a href="#">API</a><a href="#">About</a></div>
         </div>
     </footer>
@@ -244,56 +244,628 @@
     <script>
         // VCs
         const vcs = [
-            { id: "yc", name: "Y Combinator", shortName: "YC", logo: "🟠", aum: "N/A", founded: 2005, portfolioCount: 5000, focus: ["Early Stage", "All Sectors"], notable: ["Stripe", "Airbnb", "Dropbox", "Reddit"] },
-            { id: "sequoia", name: "Sequoia Capital", shortName: "Sequoia", logo: "🌲", aum: "$56B", founded: 1972, portfolioCount: 2947, focus: ["Consumer", "Enterprise", "Fintech"], notable: ["Stripe", "Airbnb", "DoorDash", "Linear"] },
-            { id: "a16z", name: "Andreessen Horowitz", shortName: "a16z", logo: "🅰️", aum: "$46B", founded: 2009, portfolioCount: 1119, focus: ["AI", "Crypto", "Fintech", "Defense"], notable: ["Coinbase", "GitHub", "Roblox", "Figma"] },
-            { id: "accel", name: "Accel", shortName: "Accel", logo: "⚡", aum: "$50B", founded: 1983, portfolioCount: 500, focus: ["Enterprise", "Consumer", "Fintech"], notable: ["Facebook", "Slack", "Spotify"] },
-            { id: "greylock", name: "Greylock Partners", shortName: "Greylock", logo: "🔷", aum: "$5B", founded: 1965, portfolioCount: 476, focus: ["Enterprise", "Consumer", "AI"], notable: ["Discord", "Figma", "LinkedIn"] },
-            { id: "founders-fund", name: "Founders Fund", shortName: "FF", logo: "🚀", aum: "$17B", founded: 2005, portfolioCount: 200, focus: ["Deep Tech", "Defense", "Space"], notable: ["SpaceX", "Palantir", "Anduril"] },
-        ];
+        {
+                "id": "yc",
+                "name": "Y Combinator",
+                "shortName": "YC",
+                "logo": "🟠",
+                "website": "https://ycombinator.com",
+                "portfolio_url": "https://ycombinator.com/companies",
+                "aum": "N/A",
+                "founded": 2005,
+                "portfolioCount": 5000,
+                "focus": [
+                        "Early Stage",
+                        "All Sectors"
+                ],
+                "notable": [
+                        "Stripe",
+                        "Airbnb",
+                        "Dropbox",
+                        "Reddit",
+                        "Coinbase",
+                        "DoorDash"
+                ]
+        },
+        {
+                "id": "sequoia",
+                "name": "Sequoia Capital",
+                "shortName": "Sequoia",
+                "logo": "🌲",
+                "website": "https://sequoiacap.com",
+                "portfolio_url": "https://sequoiacap.com/our-companies",
+                "aum": "$56B",
+                "founded": 1972,
+                "portfolioCount": 2947,
+                "focus": [
+                        "Consumer",
+                        "Enterprise",
+                        "Fintech",
+                        "Healthcare"
+                ],
+                "notable": [
+                        "Stripe",
+                        "Airbnb",
+                        "DoorDash",
+                        "Linear",
+                        "Zoom",
+                        "Snowflake"
+                ]
+        },
+        {
+                "id": "a16z",
+                "name": "Andreessen Horowitz",
+                "shortName": "a16z",
+                "logo": "🅰️",
+                "website": "https://a16z.com",
+                "portfolio_url": "https://a16z.com/portfolio/",
+                "aum": "$46B",
+                "founded": 2009,
+                "portfolioCount": 1119,
+                "focus": [
+                        "AI",
+                        "Crypto",
+                        "Fintech",
+                        "Bio",
+                        "Games"
+                ],
+                "notable": [
+                        "Coinbase",
+                        "GitHub",
+                        "Roblox",
+                        "Figma",
+                        "Instacart",
+                        "Lyft"
+                ]
+        },
+        {
+                "id": "accel",
+                "name": "Accel",
+                "shortName": "Accel",
+                "logo": "⚡",
+                "website": "https://accel.com",
+                "portfolio_url": "https://accel.com/portfolio",
+                "aum": "$50B",
+                "founded": 1983,
+                "portfolioCount": 500,
+                "focus": [
+                        "Enterprise",
+                        "Consumer",
+                        "Fintech"
+                ],
+                "notable": [
+                        "Facebook",
+                        "Slack",
+                        "Spotify",
+                        "Dropbox",
+                        "Atlassian"
+                ]
+        },
+        {
+                "id": "greylock",
+                "name": "Greylock Partners",
+                "shortName": "Greylock",
+                "logo": "🔷",
+                "website": "https://greylock.com",
+                "portfolio_url": "https://greylock.com/portfolio",
+                "aum": "$5B",
+                "founded": 1965,
+                "portfolioCount": 476,
+                "focus": [
+                        "Enterprise",
+                        "Consumer",
+                        "AI"
+                ],
+                "notable": [
+                        "Discord",
+                        "Figma",
+                        "LinkedIn",
+                        "Airbnb",
+                        "Roblox"
+                ]
+        },
+        {
+                "id": "founders-fund",
+                "name": "Founders Fund",
+                "shortName": "FF",
+                "logo": "🚀",
+                "website": "https://foundersfund.com",
+                "portfolio_url": "https://foundersfund.com/portfolio",
+                "aum": "$17B",
+                "founded": 2005,
+                "portfolioCount": 200,
+                "focus": [
+                        "Deep Tech",
+                        "Defense",
+                        "Space",
+                        "Bio"
+                ],
+                "notable": [
+                        "SpaceX",
+                        "Palantir",
+                        "Anduril",
+                        "Stripe",
+                        "Airbnb"
+                ]
+        },
+        {
+                "id": "lightspeed",
+                "name": "Lightspeed Venture Partners",
+                "shortName": "Lightspeed",
+                "logo": "💡",
+                "website": "https://lsvp.com",
+                "portfolio_url": "https://lsvp.com/portfolio",
+                "aum": "$18B",
+                "founded": 2000,
+                "portfolioCount": 400,
+                "focus": [
+                        "Enterprise",
+                        "Consumer",
+                        "Crypto"
+                ],
+                "notable": [
+                        "Snap",
+                        "Affirm",
+                        "Carta",
+                        "Epic Games",
+                        "Mulesoft"
+                ]
+        },
+        {
+                "id": "benchmark",
+                "name": "Benchmark",
+                "shortName": "Benchmark",
+                "logo": "📊",
+                "website": "https://benchmark.com",
+                "portfolio_url": "https://benchmark.com/portfolio",
+                "aum": "$4B",
+                "founded": 1995,
+                "portfolioCount": 150,
+                "focus": [
+                        "Consumer",
+                        "Enterprise",
+                        "Marketplaces"
+                ],
+                "notable": [
+                        "eBay",
+                        "Twitter",
+                        "Uber",
+                        "Discord",
+                        "Snapchat"
+                ]
+        },
+        {
+                "id": "khosla",
+                "name": "Khosla Ventures",
+                "shortName": "Khosla",
+                "logo": "🔬",
+                "website": "https://khoslaventures.com",
+                "portfolio_url": "https://khoslaventures.com/portfolio",
+                "aum": "$15B",
+                "founded": 2004,
+                "portfolioCount": 300,
+                "focus": [
+                        "Climate",
+                        "Health",
+                        "AI",
+                        "Enterprise"
+                ],
+                "notable": [
+                        "DoorDash",
+                        "Instacart",
+                        "Impossible Foods",
+                        "OpenAI"
+                ]
+        },
+        {
+                "id": "nea",
+                "name": "New Enterprise Associates",
+                "shortName": "NEA",
+                "logo": "🌐",
+                "website": "https://nea.com",
+                "portfolio_url": "https://nea.com/portfolio",
+                "aum": "$25B",
+                "founded": 1977,
+                "portfolioCount": 1000,
+                "focus": [
+                        "Healthcare",
+                        "Enterprise",
+                        "Consumer"
+                ],
+                "notable": [
+                        "Salesforce",
+                        "Coursera",
+                        "Robinhood",
+                        "Plaid"
+                ]
+        }
+];
         
         // Companies
         const companies = [
-            { id: "xai", name: "xAI", tagline: "Builds advanced AI systems at massive scale.", amount: "$20B", round: "Series E", daysAgo: "11d ago", category: "ai", tags: ["AI", "Infrastructure"], investors: ["a16z", "sequoia"], website: "https://x.ai" },
-            { id: "skild", name: "Skild AI", tagline: "Creates software to help robots learn tasks.", amount: "$1.4B", round: "Series C", daysAgo: "3d ago", category: "ai", tags: ["AI", "Robotics"], investors: ["sequoia"], website: "https://skild.ai" },
-            { id: "renewa", name: "Renewa", tagline: "Develops renewable energy infrastructure.", amount: "$502M", round: "Growth", daysAgo: "2d ago", category: "climate", tags: ["Climate", "Energy"], investors: ["greylock"], website: "https://renewa.com" },
-            { id: "rain", name: "Rain", tagline: "Builds stablecoin payment infrastructure.", amount: "$250M", round: "Series C", daysAgo: "8d ago", category: "fintech", tags: ["Fintech", "Crypto"], investors: ["a16z"], website: "https://rain.com" },
-            { id: "torq", name: "Torq", tagline: "Automates security operations with AI.", amount: "$140M", round: "Series D", daysAgo: "5d ago", category: "dev-tools", tags: ["Security", "Automation"], investors: ["greylock"], website: "https://torq.io" },
-            { id: "deepgram", name: "Deepgram", tagline: "Powers speech-to-text with AI models.", amount: "$130M", round: "Series C", daysAgo: "4d ago", category: "ai", tags: ["AI", "Speech"], investors: ["yc", "accel"], website: "https://deepgram.com" },
-            { id: "mytra", name: "Mytra", tagline: "Builds the operating system for supply chains.", amount: "$120M", round: "Series C", daysAgo: "2d ago", category: "dev-tools", tags: ["Supply Chain"], investors: ["accel"], website: "https://mytra.com" },
-            { id: "corgi", name: "Corgi", tagline: "Reimagines consumer finance experiences.", amount: "$108M", round: "Series A", daysAgo: "9d ago", category: "fintech", tags: ["Fintech", "Consumer"], investors: ["yc", "accel"], website: "https://corgi.com" },
-            { id: "govdash", name: "GovDash", tagline: "Helps companies win government contracts.", amount: "$30M", round: "Series B", daysAgo: "2d ago", category: "dev-tools", tags: ["GovTech", "AI"], investors: ["yc", "founders-fund"], website: "https://govdash.com" },
-            { id: "skyfi", name: "SkyFi", tagline: "Delivers AI-first Earth intelligence.", amount: "$12.7M", round: "Series A", daysAgo: "3d ago", category: "climate", tags: ["Climate", "Satellite"], investors: ["founders-fund"], website: "https://skyfi.com" },
-        ];
+        {
+                "name": "AI security firm",
+                "amount": "$40.0M",
+                "round": "Series A",
+                "tagline": "The company used an AI-native platform to help companies fight threats.",
+                "category": "ai",
+                "source": "https://techcrunch.com/category/venture/feed/",
+                "link": "https://techcrunch.com/2026/01/14/ai-security-firm-depthfirst-announces-40-million-series-a/",
+                "published": "Wed, 14 Jan 2026 15:50:17 +0000",
+                "id": "company-1",
+                "daysAgo": "1d ago",
+                "tags": [
+                        "Ai"
+                ],
+                "investors": []
+        },
+        {
+                "name": "Superorganism raises",
+                "amount": "$25.0M",
+                "round": "Funding",
+                "tagline": "Superorganism backs companies across three categories: tech that slows or reverses extinction, startups that operate at the intersection of climate an",
+                "category": "climate",
+                "source": "https://techcrunch.com/category/venture/feed/",
+                "link": "https://techcrunch.com/2026/01/13/superorganism-raises-25m-to-back-biodiversity-startups/",
+                "published": "Tue, 13 Jan 2026 12:30:00 +0000",
+                "id": "company-2",
+                "daysAgo": "1d ago",
+                "tags": [
+                        "Climate"
+                ],
+                "investors": []
+        },
+        {
+                "name": "These Gen Zers just raised",
+                "amount": "$11.75M",
+                "round": "Funding",
+                "tagline": "African defense company Terra comes out of stealth with an $11.75M round led by Joe Lonsdale's 8VC.",
+                "category": "other",
+                "source": "https://techcrunch.com/category/venture/feed/",
+                "link": "https://techcrunch.com/2026/01/12/these-gen-zers-just-raised-11-75m-to-put-africas-defense-back-in-the-hands-of-africans/",
+                "published": "Mon, 12 Jan 2026 08:00:00 +0000",
+                "id": "company-3",
+                "daysAgo": "1d ago",
+                "tags": [
+                        "Other"
+                ],
+                "investors": []
+        },
+        {
+                "name": "The venture firm that ate Silicon Valley just raised another",
+                "amount": "$15.0B",
+                "round": "Funding",
+                "tagline": "In a blog post published Friday morning, Ben Horowitz writes that \"as the American leader in Venture Capital, the fate of new technology in the United",
+                "category": "ai",
+                "source": "https://techcrunch.com/category/venture/feed/",
+                "link": "https://techcrunch.com/2026/01/09/the-venture-firm-that-ate-silicon-valley/",
+                "published": "Fri, 09 Jan 2026 13:00:00 +0000",
+                "id": "company-4",
+                "daysAgo": "1d ago",
+                "tags": [
+                        "Ai"
+                ],
+                "investors": []
+        },
+        {
+                "name": "Discord and Mercor investor Niko Bonatsos departs General Catalyst",
+                "amount": "Undisclosed",
+                "round": "Seed",
+                "tagline": "Bonatsos spent 15 years at GC, and until last year led the firm's seed investing strategy.",
+                "category": "other",
+                "source": "https://techcrunch.com/category/venture/feed/",
+                "link": "https://techcrunch.com/2026/01/07/discord-and-mercor-investor-niko-bonatsos-departs-general-catalyst-plans-new-vc-firm/",
+                "published": "Wed, 07 Jan 2026 23:31:29 +0000",
+                "id": "company-5",
+                "daysAgo": "1d ago",
+                "tags": [
+                        "Other"
+                ],
+                "investors": []
+        },
+        {
+                "name": "Shopify competitor Swap raises",
+                "amount": "$100.0M",
+                "round": "Funding",
+                "tagline": "VC firms DST Global and Iconiq are piling into e-commerce startup Swap Commerce, which is going up against Shopify.",
+                "category": "ai",
+                "source": "https://techcrunch.com/category/venture/feed/",
+                "link": "https://techcrunch.com/2026/01/07/shopify-competitor-swap-raises-100m-six-months-after-raising-40m/",
+                "published": "Wed, 07 Jan 2026 19:10:33 +0000",
+                "id": "company-6",
+                "daysAgo": "1d ago",
+                "tags": [
+                        "Ai"
+                ],
+                "investors": []
+        },
+        {
+                "name": "LMArena lands",
+                "amount": "$1.7B",
+                "round": "Funding",
+                "tagline": "LMArena, which started as a UC Berkeley research project, has raised about $250 million total and become a unicorn in about seven months.",
+                "category": "ai",
+                "source": "https://techcrunch.com/category/venture/feed/",
+                "link": "https://techcrunch.com/2026/01/06/lmarena-lands-1-7b-valuation-four-months-after-launching-its-product/",
+                "published": "Tue, 06 Jan 2026 19:35:55 +0000",
+                "id": "company-7",
+                "daysAgo": "1d ago",
+                "tags": [
+                        "Ai"
+                ],
+                "investors": []
+        },
+        {
+                "name": "How World Cup champion Mario G",
+                "amount": "Undisclosed",
+                "round": "Funding",
+                "tagline": "Companion M, Götze’s personal investment vehicle, now has a portfolio of more than 70 companies, two of which became unicorns in 2025",
+                "category": "other",
+                "source": "https://techcrunch.com/category/venture/feed/",
+                "link": "https://techcrunch.com/2026/01/06/how-world-cup-champion-mario-gotze-built-a-parallel-career-as-an-angel-investor/",
+                "published": "Tue, 06 Jan 2026 18:18:02 +0000",
+                "id": "company-8",
+                "daysAgo": "1d ago",
+                "tags": [
+                        "Other"
+                ],
+                "investors": []
+        },
+        {
+                "name": "Almost 80 European deep tech university spinouts reached",
+                "amount": "$1.0B",
+                "round": "Funding",
+                "tagline": "According to Dealroom’s European Spinout Report 2025, 76 European deep tech and life sciences spinouts have either reached $1 billion valuations, $100",
+                "category": "climate",
+                "source": "https://techcrunch.com/category/venture/feed/",
+                "link": "https://techcrunch.com/2025/12/30/76-european-deep-tech-university-spinouts-reached-unicorn-or-centaur-status/",
+                "published": "Tue, 30 Dec 2025 18:00:00 +0000",
+                "id": "company-9",
+                "daysAgo": "1d ago",
+                "tags": [
+                        "Climate"
+                ],
+                "investors": []
+        }
+];
         
         // Jobs
         const jobs = [
-            { id: 1, companyId: "xai", title: "Senior ML Engineer", department: "engineering", location: "San Francisco, CA", posted: "2d ago", url: "https://x.ai/careers" },
-            { id: 2, companyId: "xai", title: "Infrastructure Engineer", department: "engineering", location: "San Francisco, CA", posted: "3d ago", url: "https://x.ai/careers" },
-            { id: 3, companyId: "xai", title: "Research Scientist", department: "engineering", location: "San Francisco, CA", posted: "1d ago", url: "https://x.ai/careers" },
-            { id: 4, companyId: "xai", title: "Product Manager", department: "product", location: "San Francisco, CA", posted: "5d ago", url: "https://x.ai/careers" },
-            { id: 5, companyId: "skild", title: "Robotics Engineer", department: "engineering", location: "Pittsburgh, PA", posted: "1d ago", url: "https://skild.ai/careers" },
-            { id: 6, companyId: "skild", title: "ML Research Engineer", department: "engineering", location: "Remote", posted: "3d ago", url: "https://skild.ai/careers" },
-            { id: 7, companyId: "skild", title: "Product Designer", department: "design", location: "Pittsburgh, PA", posted: "2d ago", url: "https://skild.ai/careers" },
-            { id: 8, companyId: "rain", title: "Senior Backend Engineer", department: "engineering", location: "New York, NY", posted: "1d ago", url: "https://rain.com/careers" },
-            { id: 9, companyId: "rain", title: "Blockchain Engineer", department: "engineering", location: "Remote", posted: "4d ago", url: "https://rain.com/careers" },
-            { id: 10, companyId: "rain", title: "Head of Sales", department: "sales", location: "New York, NY", posted: "2d ago", url: "https://rain.com/careers" },
-            { id: 11, companyId: "torq", title: "Security Engineer", department: "engineering", location: "Tel Aviv, Israel", posted: "3d ago", url: "https://torq.io/careers" },
-            { id: 12, companyId: "torq", title: "Senior Product Manager", department: "product", location: "Remote", posted: "1d ago", url: "https://torq.io/careers" },
-            { id: 13, companyId: "deepgram", title: "Speech ML Engineer", department: "engineering", location: "Remote", posted: "2d ago", url: "https://deepgram.com/careers" },
-            { id: 14, companyId: "deepgram", title: "Developer Advocate", department: "sales", location: "Remote", posted: "5d ago", url: "https://deepgram.com/careers" },
-            { id: 15, companyId: "deepgram", title: "Full Stack Engineer", department: "engineering", location: "Remote", posted: "1d ago", url: "https://deepgram.com/careers" },
-            { id: 16, companyId: "mytra", title: "Supply Chain Analyst", department: "operations", location: "San Francisco, CA", posted: "3d ago", url: "https://mytra.com/careers" },
-            { id: 17, companyId: "mytra", title: "Backend Engineer", department: "engineering", location: "San Francisco, CA", posted: "2d ago", url: "https://mytra.com/careers" },
-            { id: 18, companyId: "corgi", title: "iOS Engineer", department: "engineering", location: "New York, NY", posted: "1d ago", url: "https://corgi.com/careers" },
-            { id: 19, companyId: "corgi", title: "Product Designer", department: "design", location: "New York, NY", posted: "4d ago", url: "https://corgi.com/careers" },
-            { id: 20, companyId: "govdash", title: "AI Engineer", department: "engineering", location: "Washington, DC", posted: "2d ago", url: "https://govdash.com/careers" },
-            { id: 21, companyId: "govdash", title: "Government Sales Rep", department: "sales", location: "Washington, DC", posted: "1d ago", url: "https://govdash.com/careers" },
-            { id: 22, companyId: "renewa", title: "Project Manager", department: "operations", location: "Houston, TX", posted: "3d ago", url: "https://renewa.com/careers" },
-            { id: 23, companyId: "renewa", title: "Electrical Engineer", department: "engineering", location: "Houston, TX", posted: "2d ago", url: "https://renewa.com/careers" },
-            { id: 24, companyId: "skyfi", title: "Satellite Data Engineer", department: "engineering", location: "Remote", posted: "1d ago", url: "https://skyfi.com/careers" },
-            { id: 25, companyId: "skyfi", title: "Growth Marketing Manager", department: "sales", location: "Austin, TX", posted: "4d ago", url: "https://skyfi.com/careers" },
-        ];
+        {
+                "id": 1,
+                "companyId": "company-1",
+                "title": "Senior Software Engineer",
+                "department": "engineering",
+                "location": "San Francisco, CA",
+                "posted": "2d ago",
+                "url": "#/careers"
+        },
+        {
+                "id": 2,
+                "companyId": "company-1",
+                "title": "Product Lead",
+                "department": "product",
+                "location": "Seattle, WA",
+                "posted": "3d ago",
+                "url": "#/careers"
+        },
+        {
+                "id": 3,
+                "companyId": "company-2",
+                "title": "DevOps Engineer",
+                "department": "engineering",
+                "location": "New York, NY",
+                "posted": "7d ago",
+                "url": "#/careers"
+        },
+        {
+                "id": 4,
+                "companyId": "company-2",
+                "title": "ML Engineer",
+                "department": "engineering",
+                "location": "Austin, TX",
+                "posted": "7d ago",
+                "url": "#/careers"
+        },
+        {
+                "id": 5,
+                "companyId": "company-3",
+                "title": "DevOps Engineer",
+                "department": "engineering",
+                "location": "Austin, TX",
+                "posted": "4d ago",
+                "url": "#/careers"
+        },
+        {
+                "id": 6,
+                "companyId": "company-3",
+                "title": "Head of Sales",
+                "department": "sales",
+                "location": "Seattle, WA",
+                "posted": "7d ago",
+                "url": "#/careers"
+        },
+        {
+                "id": 7,
+                "companyId": "company-4",
+                "title": "Head of Sales",
+                "department": "sales",
+                "location": "Austin, TX",
+                "posted": "5d ago",
+                "url": "#/careers"
+        },
+        {
+                "id": 8,
+                "companyId": "company-4",
+                "title": "Executive Assistant",
+                "department": "operations",
+                "location": "New York, NY",
+                "posted": "2d ago",
+                "url": "#/careers"
+        },
+        {
+                "id": 9,
+                "companyId": "company-4",
+                "title": "Frontend Engineer",
+                "department": "engineering",
+                "location": "San Francisco, CA",
+                "posted": "7d ago",
+                "url": "#/careers"
+        },
+        {
+                "id": 10,
+                "companyId": "company-5",
+                "title": "DevOps Engineer",
+                "department": "engineering",
+                "location": "Seattle, WA",
+                "posted": "4d ago",
+                "url": "#/careers"
+        },
+        {
+                "id": 11,
+                "companyId": "company-5",
+                "title": "Backend Engineer",
+                "department": "engineering",
+                "location": "San Francisco, CA",
+                "posted": "5d ago",
+                "url": "#/careers"
+        },
+        {
+                "id": 12,
+                "companyId": "company-6",
+                "title": "Finance Manager",
+                "department": "operations",
+                "location": "New York, NY",
+                "posted": "1d ago",
+                "url": "#/careers"
+        },
+        {
+                "id": 13,
+                "companyId": "company-6",
+                "title": "HR Manager",
+                "department": "operations",
+                "location": "San Francisco, CA",
+                "posted": "6d ago",
+                "url": "#/careers"
+        },
+        {
+                "id": 14,
+                "companyId": "company-6",
+                "title": "Account Executive",
+                "department": "sales",
+                "location": "Remote",
+                "posted": "2d ago",
+                "url": "#/careers"
+        },
+        {
+                "id": 15,
+                "companyId": "company-7",
+                "title": "Head of Sales",
+                "department": "sales",
+                "location": "Remote",
+                "posted": "5d ago",
+                "url": "#/careers"
+        },
+        {
+                "id": 16,
+                "companyId": "company-7",
+                "title": "Design Lead",
+                "department": "design",
+                "location": "Seattle, WA",
+                "posted": "4d ago",
+                "url": "#/careers"
+        },
+        {
+                "id": 17,
+                "companyId": "company-7",
+                "title": "Operations Manager",
+                "department": "operations",
+                "location": "New York, NY",
+                "posted": "6d ago",
+                "url": "#/careers"
+        },
+        {
+                "id": 18,
+                "companyId": "company-7",
+                "title": "Product Lead",
+                "department": "product",
+                "location": "New York, NY",
+                "posted": "4d ago",
+                "url": "#/careers"
+        },
+        {
+                "id": 19,
+                "companyId": "company-8",
+                "title": "DevOps Engineer",
+                "department": "engineering",
+                "location": "New York, NY",
+                "posted": "1d ago",
+                "url": "#/careers"
+        },
+        {
+                "id": 20,
+                "companyId": "company-8",
+                "title": "DevOps Engineer",
+                "department": "engineering",
+                "location": "Austin, TX",
+                "posted": "6d ago",
+                "url": "#/careers"
+        },
+        {
+                "id": 21,
+                "companyId": "company-8",
+                "title": "Senior Product Manager",
+                "department": "product",
+                "location": "Austin, TX",
+                "posted": "5d ago",
+                "url": "#/careers"
+        },
+        {
+                "id": 22,
+                "companyId": "company-8",
+                "title": "Senior Software Engineer",
+                "department": "engineering",
+                "location": "Boston, MA",
+                "posted": "6d ago",
+                "url": "#/careers"
+        },
+        {
+                "id": 23,
+                "companyId": "company-9",
+                "title": "Finance Manager",
+                "department": "operations",
+                "location": "Seattle, WA",
+                "posted": "5d ago",
+                "url": "#/careers"
+        },
+        {
+                "id": 24,
+                "companyId": "company-9",
+                "title": "Design Lead",
+                "department": "design",
+                "location": "Seattle, WA",
+                "posted": "5d ago",
+                "url": "#/careers"
+        },
+        {
+                "id": 25,
+                "companyId": "company-9",
+                "title": "Account Executive",
+                "department": "sales",
+                "location": "Boston, MA",
+                "posted": "3d ago",
+                "url": "#/careers"
+        },
+        {
+                "id": 26,
+                "companyId": "company-9",
+                "title": "Design Lead",
+                "department": "design",
+                "location": "Seattle, WA",
+                "posted": "7d ago",
+                "url": "#/careers"
+        }
+];
         
         // State
         let categoryFilter = 'all';

@@ -1,0 +1,239 @@
+{
+  "jobs": [
+    {
+      "id": 1,
+      "companyId": "company-1",
+      "title": "Senior Software Engineer",
+      "department": "engineering",
+      "location": "San Francisco, CA",
+      "posted": "2d ago",
+      "url": "#/careers"
+    },
+    {
+      "id": 2,
+      "companyId": "company-1",
+      "title": "Product Lead",
+      "department": "product",
+      "location": "Seattle, WA",
+      "posted": "3d ago",
+      "url": "#/careers"
+    },
+    {
+      "id": 3,
+      "companyId": "company-2",
+      "title": "DevOps Engineer",
+      "department": "engineering",
+      "location": "New York, NY",
+      "posted": "7d ago",
+      "url": "#/careers"
+    },
+    {
+      "id": 4,
+      "companyId": "company-2",
+      "title": "ML Engineer",
+      "department": "engineering",
+      "location": "Austin, TX",
+      "posted": "7d ago",
+      "url": "#/careers"
+    },
+    {
+      "id": 5,
+      "companyId": "company-3",
+      "title": "DevOps Engineer",
+      "department": "engineering",
+      "location": "Austin, TX",
+      "posted": "4d ago",
+      "url": "#/careers"
+    },
+    {
+      "id": 6,
+      "companyId": "company-3",
+      "title": "Head of Sales",
+      "department": "sales",
+      "location": "Seattle, WA",
+      "posted": "7d ago",
+      "url": "#/careers"
+    },
+    {
+      "id": 7,
+      "companyId": "company-4",
+      "title": "Head of Sales",
+      "department": "sales",
+      "location": "Austin, TX",
+      "posted": "5d ago",
+      "url": "#/careers"
+    },
+    {
+      "id": 8,
+      "companyId": "company-4",
+      "title": "Executive Assistant",
+      "department": "operations",
+      "location": "New York, NY",
+      "posted": "2d ago",
+      "url": "#/careers"
+    },
+    {
+      "id": 9,
+      "companyId": "company-4",
+      "title": "Frontend Engineer",
+      "department": "engineering",
+      "location": "San Francisco, CA",
+      "posted": "7d ago",
+      "url": "#/careers"
+    },
+    {
+      "id": 10,
+      "companyId": "company-5",
+      "title": "DevOps Engineer",
+      "department": "engineering",
+      "location": "Seattle, WA",
+      "posted": "4d ago",
+      "url": "#/careers"
+    },
+    {
+      "id": 11,
+      "companyId": "company-5",
+      "title": "Backend Engineer",
+      "department": "engineering",
+      "location": "San Francisco, CA",
+      "posted": "5d ago",
+      "url": "#/careers"
+    },
+    {
+      "id": 12,
+      "companyId": "company-6",
+      "title": "Finance Manager",
+      "department": "operations",
+      "location": "New York, NY",
+      "posted": "1d ago",
+      "url": "#/careers"
+    },
+    {
+      "id": 13,
+      "companyId": "company-6",
+      "title": "HR Manager",
+      "department": "operations",
+      "location": "San Francisco, CA",
+      "posted": "6d ago",
+      "url": "#/careers"
+    },
+    {
+      "id": 14,
+      "companyId": "company-6",
+      "title": "Account Executive",
+      "department": "sales",
+      "location": "Remote",
+      "posted": "2d ago",
+      "url": "#/careers"
+    },
+    {
+      "id": 15,
+      "companyId": "company-7",
+      "title": "Head of Sales",
+      "department": "sales",
+      "location": "Remote",
+      "posted": "5d ago",
+      "url": "#/careers"
+    },
+    {
+      "id": 16,
+      "companyId": "company-7",
+      "title": "Design Lead",
+      "department": "design",
+      "location": "Seattle, WA",
+      "posted": "4d ago",
+      "url": "#/careers"
+    },
+    {
+      "id": 17,
+      "companyId": "company-7",
+      "title": "Operations Manager",
+      "department": "operations",
+      "location": "New York, NY",
+      "posted": "6d ago",
+      "url": "#/careers"
+    },
+    {
+      "id": 18,
+      "companyId": "company-7",
+      "title": "Product Lead",
+      "department": "product",
+      "location": "New York, NY",
+      "posted": "4d ago",
+      "url": "#/careers"
+    },
+    {
+      "id": 19,
+      "companyId": "company-8",
+      "title": "DevOps Engineer",
+      "department": "engineering",
+      "location": "New York, NY",
+      "posted": "1d ago",
+      "url": "#/careers"
+    },
+    {
+      "id": 20,
+      "companyId": "company-8",
+      "title": "DevOps Engineer",
+      "department": "engineering",
+      "location": "Austin, TX",
+      "posted": "6d ago",
+      "url": "#/careers"
+    },
+    {
+      "id": 21,
+      "companyId": "company-8",
+      "title": "Senior Product Manager",
+      "department": "product",
+      "location": "Austin, TX",
+      "posted": "5d ago",
+      "url": "#/careers"
+    },
+    {
+      "id": 22,
+      "companyId": "company-8",
+      "title": "Senior Software Engineer",
+      "department": "engineering",
+      "location": "Boston, MA",
+      "posted": "6d ago",
+      "url": "#/careers"
+    },
+    {
+      "id": 23,
+      "companyId": "company-9",
+      "title": "Finance Manager",
+      "department": "operations",
+      "location": "Seattle, WA",
+      "posted": "5d ago",
+      "url": "#/careers"
+    },
+    {
+      "id": 24,
+      "companyId": "company-9",
+      "title": "Design Lead",
+      "department": "design",
+      "location": "Seattle, WA",
+      "posted": "5d ago",
+      "url": "#/careers"
+    },
+    {
+      "id": 25,
+      "companyId": "company-9",
+      "title": "Account Executive",
+      "department": "sales",
+      "location": "Boston, MA",
+      "posted": "3d ago",
+      "url": "#/careers"
+    },
+    {
+      "id": 26,
+      "companyId": "company-9",
+      "title": "Design Lead",
+      "department": "design",
+      "location": "Seattle, WA",
+      "posted": "7d ago",
+      "url": "#/careers"
+    }
+  ],
+  "updated": "2026-01-18T00:53:09.004071"
+}

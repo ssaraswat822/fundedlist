@@ -1,0 +1,240 @@
+{
+  "vcs": [
+    {
+      "id": "yc",
+      "name": "Y Combinator",
+      "shortName": "YC",
+      "logo": "\ud83d\udfe0",
+      "website": "https://ycombinator.com",
+      "portfolio_url": "https://ycombinator.com/companies",
+      "aum": "N/A",
+      "founded": 2005,
+      "portfolioCount": 5000,
+      "focus": [
+        "Early Stage",
+        "All Sectors"
+      ],
+      "notable": [
+        "Stripe",
+        "Airbnb",
+        "Dropbox",
+        "Reddit",
+        "Coinbase",
+        "DoorDash"
+      ]
+    },
+    {
+      "id": "sequoia",
+      "name": "Sequoia Capital",
+      "shortName": "Sequoia",
+      "logo": "\ud83c\udf32",
+      "website": "https://sequoiacap.com",
+      "portfolio_url": "https://sequoiacap.com/our-companies",
+      "aum": "$56B",
+      "founded": 1972,
+      "portfolioCount": 2947,
+      "focus": [
+        "Consumer",
+        "Enterprise",
+        "Fintech",
+        "Healthcare"
+      ],
+      "notable": [
+        "Stripe",
+        "Airbnb",
+        "DoorDash",
+        "Linear",
+        "Zoom",
+        "Snowflake"
+      ]
+    },
+    {
+      "id": "a16z",
+      "name": "Andreessen Horowitz",
+      "shortName": "a16z",
+      "logo": "\ud83c\udd70\ufe0f",
+      "website": "https://a16z.com",
+      "portfolio_url": "https://a16z.com/portfolio/",
+      "aum": "$46B",
+      "founded": 2009,
+      "portfolioCount": 1119,
+      "focus": [
+        "AI",
+        "Crypto",
+        "Fintech",
+        "Bio",
+        "Games"
+      ],
+      "notable": [
+        "Coinbase",
+        "GitHub",
+        "Roblox",
+        "Figma",
+        "Instacart",
+        "Lyft"
+      ]
+    },
+    {
+      "id": "accel",
+      "name": "Accel",
+      "shortName": "Accel",
+      "logo": "\u26a1",
+      "website": "https://accel.com",
+      "portfolio_url": "https://accel.com/portfolio",
+      "aum": "$50B",
+      "founded": 1983,
+      "portfolioCount": 500,
+      "focus": [
+        "Enterprise",
+        "Consumer",
+        "Fintech"
+      ],
+      "notable": [
+        "Facebook",
+        "Slack",
+        "Spotify",
+        "Dropbox",
+        "Atlassian"
+      ]
+    },
+    {
+      "id": "greylock",
+      "name": "Greylock Partners",
+      "shortName": "Greylock",
+      "logo": "\ud83d\udd37",
+      "website": "https://greylock.com",
+      "portfolio_url": "https://greylock.com/portfolio",
+      "aum": "$5B",
+      "founded": 1965,
+      "portfolioCount": 476,
+      "focus": [
+        "Enterprise",
+        "Consumer",
+        "AI"
+      ],
+      "notable": [
+        "Discord",
+        "Figma",
+        "LinkedIn",
+        "Airbnb",
+        "Roblox"
+      ]
+    },
+    {
+      "id": "founders-fund",
+      "name": "Founders Fund",
+      "shortName": "FF",
+      "logo": "\ud83d\ude80",
+      "website": "https://foundersfund.com",
+      "portfolio_url": "https://foundersfund.com/portfolio",
+      "aum": "$17B",
+      "founded": 2005,
+      "portfolioCount": 200,
+      "focus": [
+        "Deep Tech",
+        "Defense",
+        "Space",
+        "Bio"
+      ],
+      "notable": [
+        "SpaceX",
+        "Palantir",
+        "Anduril",
+        "Stripe",
+        "Airbnb"
+      ]
+    },
+    {
+      "id": "lightspeed",
+      "name": "Lightspeed Venture Partners",
+      "shortName": "Lightspeed",
+      "logo": "\ud83d\udca1",
+      "website": "https://lsvp.com",
+      "portfolio_url": "https://lsvp.com/portfolio",
+      "aum": "$18B",
+      "founded": 2000,
+      "portfolioCount": 400,
+      "focus": [
+        "Enterprise",
+        "Consumer",
+        "Crypto"
+      ],
+      "notable": [
+        "Snap",
+        "Affirm",
+        "Carta",
+        "Epic Games",
+        "Mulesoft"
+      ]
+    },
+    {
+      "id": "benchmark",
+      "name": "Benchmark",
+      "shortName": "Benchmark",
+      "logo": "\ud83d\udcca",
+      "website": "https://benchmark.com",
+      "portfolio_url": "https://benchmark.com/portfolio",
+      "aum": "$4B",
+      "founded": 1995,
+      "portfolioCount": 150,
+      "focus": [
+        "Consumer",
+        "Enterprise",
+        "Marketplaces"
+      ],
+      "notable": [
+        "eBay",
+        "Twitter",
+        "Uber",
+        "Discord",
+        "Snapchat"
+      ]
+    },
+    {
+      "id": "khosla",
+      "name": "Khosla Ventures",
+      "shortName": "Khosla",
+      "logo": "\ud83d\udd2c",
+      "website": "https://khoslaventures.com",
+      "portfolio_url": "https://khoslaventures.com/portfolio",
+      "aum": "$15B",
+      "founded": 2004,
+      "portfolioCount": 300,
+      "focus": [
+        "Climate",
+        "Health",
+        "AI",
+        "Enterprise"
+      ],
+      "notable": [
+        "DoorDash",
+        "Instacart",
+        "Impossible Foods",
+        "OpenAI"
+      ]
+    },
+    {
+      "id": "nea",
+      "name": "New Enterprise Associates",
+      "shortName": "NEA",
+      "logo": "\ud83c\udf10",
+      "website": "https://nea.com",
+      "portfolio_url": "https://nea.com/portfolio",
+      "aum": "$25B",
+      "founded": 1977,
+      "portfolioCount": 1000,
+      "focus": [
+        "Healthcare",
+        "Enterprise",
+        "Consumer"
+      ],
+      "notable": [
+        "Salesforce",
+        "Coursera",
+        "Robinhood",
+        "Plaid"
+      ]
+    }
+  ],
+  "updated": "2026-01-18T00:53:08.832954"
+}
