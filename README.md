@@ -1,41 +1,46 @@
 # 🚀 FundedList
 
-A curated directory of startups that just raised funding — with links to their open jobs.
+A curated job board for recently funded startups. Find roles at companies with fresh capital and runway to grow.
 
-**Live updates daily** via GitHub Actions → Netlify auto-deploy.
+**Live at:** [your-site.netlify.app](https://your-site.netlify.app)
 
 ---
 
-## Quick Deploy to Netlify
+## Features
 
-### Step 1: Push to GitHub
+- 🏢 **Companies** — Browse startups that just raised funding
+- 💼 **Jobs** — Open roles at funded companies
+- 💰 **VCs** — Filter by investor portfolio
+- 🔄 **Auto-updates** — Data refreshes daily via GitHub Actions
 
-```bash
-git init
-git add .
-git commit -m "Initial commit"
-git branch -M main
-git remote add origin https://github.com/YOUR_USERNAME/fundedlist.git
-git push -u origin main
-```
+---
 
-### Step 2: Connect to Netlify
+## Quick Setup
 
-1. Go to [netlify.com](https://netlify.com) → Log in
-2. Click **"Add new site"** → **"Import an existing project"**
-3. Connect your GitHub repo
-4. Settings:
-   - **Build command:** (leave blank)
-   - **Publish directory:** `.`
-5. Click **Deploy**
+### 1. Upload to GitHub
 
-Your site is now live! 🎉
+Upload all these files to your GitHub repository.
 
-### Step 3: Enable Auto-Updates
+**Important:** For the `.github/workflows/update-data.yml` file:
+- Click "Add file" → "Create new file"
+- Name it `.github/workflows/update-data.yml`
+- Paste the contents
 
-Go to your GitHub repo → **Actions** tab → workflows will run daily at 6am UTC.
+### 2. Connect to Netlify
 
-To run manually: **Actions** → **"Update Funding Data"** → **"Run workflow"**
+1. Go to [netlify.com](https://netlify.com)
+2. Click "Add new site" → "Import an existing project"
+3. Select your GitHub repo
+4. Leave build command **blank**
+5. Set publish directory to `.`
+6. Click Deploy
+
+### 3. Enable Auto-Updates
+
+The GitHub Action runs automatically every day at 6am UTC. To run manually:
+1. Go to your repo → **Actions** tab
+2. Click **"Update Funding Data"**
+3. Click **"Run workflow"**
 
 ---
 
@@ -47,10 +52,10 @@ Daily @ 6am UTC
       ▼
 ┌─────────────────────────────┐
 │     GitHub Actions          │
-│  • Run funding scraper      │
-│  • Run VC portfolio scraper │
-│  • Rebuild index.html       │
-│  • Commit & push            │
+│  • scraper_v2.py (funding)  │
+│  • vc_scraper.py (VCs)      │
+│  • job_scraper.py (jobs)    │
+│  • build_site.py (rebuild)  │
 └─────────────────────────────┘
       │
       ▼
@@ -62,56 +67,69 @@ Daily @ 6am UTC
 
 ---
 
-## Project Structure
+## Files
 
-```
-fundedlist/
-├── index.html              # Main site (auto-generated)
-├── data/
-│   ├── companies.json      # Funded companies
-│   └── vcs.json            # VC firms
-├── scraper_v2.py           # Funding news scraper
-├── vc_scraper.py           # VC portfolio scraper
-├── job_scraper.py          # Job listings scraper
-├── build_site.py           # Site generator
-├── netlify.toml            # Netlify config
-└── .github/workflows/
-    └── update-data.yml     # Daily automation
-```
-
----
-
-## Data Sources
-
-| Source | Data |
-|--------|------|
-| startups.gallery | Structured funding rounds |
-| vcnewsdaily.com | Press releases |
-| a16z.com/portfolio | a16z companies |
-| sequoiacap.com/our-companies | Sequoia companies |
-| ycombinator.com/companies | YC companies |
+| File | Purpose |
+|------|---------|
+| `index.html` | The main site |
+| `scraper_v2.py` | Scrapes funding news from RSS feeds |
+| `vc_scraper.py` | Exports VC data |
+| `job_scraper.py` | Generates/scrapes job listings |
+| `build_site.py` | Rebuilds HTML with fresh data |
+| `requirements.txt` | Python dependencies |
+| `netlify.toml` | Netlify config |
+| `.github/workflows/update-data.yml` | Daily automation |
 
 ---
 
 ## Local Development
 
 ```bash
+# Install dependencies
 pip install -r requirements.txt
 
 # Run scrapers
 python scraper_v2.py
 python vc_scraper.py
+python job_scraper.py
 
-# Build site
+# Rebuild site
 python build_site.py
 
-# Preview
+# Preview locally
 python -m http.server 8000
+# Open http://localhost:8000
 ```
 
 ---
 
-## Cost: $0/month
+## Cost
 
-- Netlify: Free tier (100GB bandwidth)
-- GitHub Actions: Free tier (2,000 mins/month)
+| Service | Cost |
+|---------|------|
+| Netlify | Free |
+| GitHub Actions | Free |
+| **Total** | **$0/month** |
+
+---
+
+## Customization
+
+### Add more VCs
+Edit `vc_scraper.py` and add to the `VCS` list.
+
+### Add more data sources
+Edit `scraper_v2.py` and add RSS feeds to `RSS_FEEDS`.
+
+### Change schedule
+Edit `.github/workflows/update-data.yml`:
+```yaml
+schedule:
+  - cron: '0 */6 * * *'  # Every 6 hours
+```
+
+---
+
+## License
+
+MIT

@@ -1,0 +1,125 @@
+{
+  "companies": [
+    {
+      "id": "xai",
+      "name": "xAI",
+      "tagline": "Builds advanced AI systems at massive scale.",
+      "amount": "$20B",
+      "round": "Series E",
+      "daysAgo": "11d ago",
+      "category": "ai",
+      "tags": ["AI", "Infrastructure"],
+      "investors": ["a16z", "sequoia"],
+      "website": "https://x.ai"
+    },
+    {
+      "id": "skild",
+      "name": "Skild AI",
+      "tagline": "Creates software to help robots learn tasks.",
+      "amount": "$1.4B",
+      "round": "Series C",
+      "daysAgo": "3d ago",
+      "category": "ai",
+      "tags": ["AI", "Robotics"],
+      "investors": ["sequoia"],
+      "website": "https://skild.ai"
+    },
+    {
+      "id": "renewa",
+      "name": "Renewa",
+      "tagline": "Develops renewable energy infrastructure.",
+      "amount": "$502M",
+      "round": "Growth",
+      "daysAgo": "2d ago",
+      "category": "climate",
+      "tags": ["Climate", "Energy"],
+      "investors": ["greylock"],
+      "website": "https://renewa.com"
+    },
+    {
+      "id": "rain",
+      "name": "Rain",
+      "tagline": "Builds stablecoin payment infrastructure.",
+      "amount": "$250M",
+      "round": "Series C",
+      "daysAgo": "8d ago",
+      "category": "fintech",
+      "tags": ["Fintech", "Crypto"],
+      "investors": ["a16z"],
+      "website": "https://rain.com"
+    },
+    {
+      "id": "torq",
+      "name": "Torq",
+      "tagline": "Automates security operations with AI.",
+      "amount": "$140M",
+      "round": "Series D",
+      "daysAgo": "5d ago",
+      "category": "dev-tools",
+      "tags": ["Security", "Automation"],
+      "investors": ["greylock"],
+      "website": "https://torq.io"
+    },
+    {
+      "id": "deepgram",
+      "name": "Deepgram",
+      "tagline": "Powers speech-to-text with AI models.",
+      "amount": "$130M",
+      "round": "Series C",
+      "daysAgo": "4d ago",
+      "category": "ai",
+      "tags": ["AI", "Speech"],
+      "investors": ["yc", "accel"],
+      "website": "https://deepgram.com"
+    },
+    {
+      "id": "mytra",
+      "name": "Mytra",
+      "tagline": "Builds the operating system for supply chains.",
+      "amount": "$120M",
+      "round": "Series C",
+      "daysAgo": "2d ago",
+      "category": "dev-tools",
+      "tags": ["Supply Chain"],
+      "investors": ["accel"],
+      "website": "https://mytra.com"
+    },
+    {
+      "id": "corgi",
+      "name": "Corgi",
+      "tagline": "Reimagines consumer finance experiences.",
+      "amount": "$108M",
+      "round": "Series A",
+      "daysAgo": "9d ago",
+      "category": "fintech",
+      "tags": ["Fintech", "Consumer"],
+      "investors": ["yc", "accel"],
+      "website": "https://corgi.com"
+    },
+    {
+      "id": "govdash",
+      "name": "GovDash",
+      "tagline": "Helps companies win government contracts.",
+      "amount": "$30M",
+      "round": "Series B",
+      "daysAgo": "2d ago",
+      "category": "dev-tools",
+      "tags": ["GovTech", "AI"],
+      "investors": ["yc", "founders-fund"],
+      "website": "https://govdash.com"
+    },
+    {
+      "id": "skyfi",
+      "name": "SkyFi",
+      "tagline": "Delivers AI-first Earth intelligence.",
+      "amount": "$12.7M",
+      "round": "Series A",
+      "daysAgo": "3d ago",
+      "category": "climate",
+      "tags": ["Climate", "Satellite"],
+      "investors": ["founders-fund"],
+      "website": "https://skyfi.com"
+    }
+  ],
+  "updated": "2026-01-17T00:00:00"
+}

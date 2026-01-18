@@ -1,16 +1,8 @@
 # Netlify configuration
 
 [build]
-  # No build command needed - we publish static HTML
   publish = "."
 
-# Redirect /index.html to /
-[[redirects]]
-  from = "/index.html"
-  to = "/"
-  status = 200
-
-# Cache static assets
 [[headers]]
   for = "/*"
   [headers.values]

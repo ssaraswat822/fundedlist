@@ -1,0 +1,71 @@
+{
+  "vcs": [
+    {
+      "id": "yc",
+      "name": "Y Combinator",
+      "shortName": "YC",
+      "logo": "🟠",
+      "aum": "N/A",
+      "founded": 2005,
+      "portfolioCount": 5000,
+      "focus": ["Early Stage", "All Sectors"],
+      "notable": ["Stripe", "Airbnb", "Dropbox", "Reddit"]
+    },
+    {
+      "id": "sequoia",
+      "name": "Sequoia Capital",
+      "shortName": "Sequoia",
+      "logo": "🌲",
+      "aum": "$56B",
+      "founded": 1972,
+      "portfolioCount": 2947,
+      "focus": ["Consumer", "Enterprise", "Fintech"],
+      "notable": ["Stripe", "Airbnb", "DoorDash", "Linear"]
+    },
+    {
+      "id": "a16z",
+      "name": "Andreessen Horowitz",
+      "shortName": "a16z",
+      "logo": "🅰️",
+      "aum": "$46B",
+      "founded": 2009,
+      "portfolioCount": 1119,
+      "focus": ["AI", "Crypto", "Fintech", "Defense"],
+      "notable": ["Coinbase", "GitHub", "Roblox", "Figma"]
+    },
+    {
+      "id": "accel",
+      "name": "Accel",
+      "shortName": "Accel",
+      "logo": "⚡",
+      "aum": "$50B",
+      "founded": 1983,
+      "portfolioCount": 500,
+      "focus": ["Enterprise", "Consumer", "Fintech"],
+      "notable": ["Facebook", "Slack", "Spotify"]
+    },
+    {
+      "id": "greylock",
+      "name": "Greylock Partners",
+      "shortName": "Greylock",
+      "logo": "🔷",
+      "aum": "$5B",
+      "founded": 1965,
+      "portfolioCount": 476,
+      "focus": ["Enterprise", "Consumer", "AI"],
+      "notable": ["Discord", "Figma", "LinkedIn"]
+    },
+    {
+      "id": "founders-fund",
+      "name": "Founders Fund",
+      "shortName": "FF",
+      "logo": "🚀",
+      "aum": "$17B",
+      "founded": 2005,
+      "portfolioCount": 200,
+      "focus": ["Deep Tech", "Defense", "Space"],
+      "notable": ["SpaceX", "Palantir", "Anduril"]
+    }
+  ],
+  "updated": "2026-01-17T00:00:00"
+}

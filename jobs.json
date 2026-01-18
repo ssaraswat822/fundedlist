@@ -1,0 +1,30 @@
+{
+  "jobs": [
+    {"id": 1, "companyId": "xai", "title": "Senior ML Engineer", "department": "engineering", "location": "San Francisco, CA", "posted": "2d ago", "url": "https://x.ai/careers"},
+    {"id": 2, "companyId": "xai", "title": "Infrastructure Engineer", "department": "engineering", "location": "San Francisco, CA", "posted": "3d ago", "url": "https://x.ai/careers"},
+    {"id": 3, "companyId": "xai", "title": "Research Scientist", "department": "engineering", "location": "San Francisco, CA", "posted": "1d ago", "url": "https://x.ai/careers"},
+    {"id": 4, "companyId": "xai", "title": "Product Manager", "department": "product", "location": "San Francisco, CA", "posted": "5d ago", "url": "https://x.ai/careers"},
+    {"id": 5, "companyId": "skild", "title": "Robotics Engineer", "department": "engineering", "location": "Pittsburgh, PA", "posted": "1d ago", "url": "https://skild.ai/careers"},
+    {"id": 6, "companyId": "skild", "title": "ML Research Engineer", "department": "engineering", "location": "Remote", "posted": "3d ago", "url": "https://skild.ai/careers"},
+    {"id": 7, "companyId": "skild", "title": "Product Designer", "department": "design", "location": "Pittsburgh, PA", "posted": "2d ago", "url": "https://skild.ai/careers"},
+    {"id": 8, "companyId": "rain", "title": "Senior Backend Engineer", "department": "engineering", "location": "New York, NY", "posted": "1d ago", "url": "https://rain.com/careers"},
+    {"id": 9, "companyId": "rain", "title": "Blockchain Engineer", "department": "engineering", "location": "Remote", "posted": "4d ago", "url": "https://rain.com/careers"},
+    {"id": 10, "companyId": "rain", "title": "Head of Sales", "department": "sales", "location": "New York, NY", "posted": "2d ago", "url": "https://rain.com/careers"},
+    {"id": 11, "companyId": "torq", "title": "Security Engineer", "department": "engineering", "location": "Tel Aviv, Israel", "posted": "3d ago", "url": "https://torq.io/careers"},
+    {"id": 12, "companyId": "torq", "title": "Senior Product Manager", "department": "product", "location": "Remote", "posted": "1d ago", "url": "https://torq.io/careers"},
+    {"id": 13, "companyId": "deepgram", "title": "Speech ML Engineer", "department": "engineering", "location": "Remote", "posted": "2d ago", "url": "https://deepgram.com/careers"},
+    {"id": 14, "companyId": "deepgram", "title": "Developer Advocate", "department": "sales", "location": "Remote", "posted": "5d ago", "url": "https://deepgram.com/careers"},
+    {"id": 15, "companyId": "deepgram", "title": "Full Stack Engineer", "department": "engineering", "location": "Remote", "posted": "1d ago", "url": "https://deepgram.com/careers"},
+    {"id": 16, "companyId": "mytra", "title": "Supply Chain Analyst", "department": "operations", "location": "San Francisco, CA", "posted": "3d ago", "url": "https://mytra.com/careers"},
+    {"id": 17, "companyId": "mytra", "title": "Backend Engineer", "department": "engineering", "location": "San Francisco, CA", "posted": "2d ago", "url": "https://mytra.com/careers"},
+    {"id": 18, "companyId": "corgi", "title": "iOS Engineer", "department": "engineering", "location": "New York, NY", "posted": "1d ago", "url": "https://corgi.com/careers"},
+    {"id": 19, "companyId": "corgi", "title": "Product Designer", "department": "design", "location": "New York, NY", "posted": "4d ago", "url": "https://corgi.com/careers"},
+    {"id": 20, "companyId": "govdash", "title": "AI Engineer", "department": "engineering", "location": "Washington, DC", "posted": "2d ago", "url": "https://govdash.com/careers"},
+    {"id": 21, "companyId": "govdash", "title": "Government Sales Rep", "department": "sales", "location": "Washington, DC", "posted": "1d ago", "url": "https://govdash.com/careers"},
+    {"id": 22, "companyId": "renewa", "title": "Project Manager", "department": "operations", "location": "Houston, TX", "posted": "3d ago", "url": "https://renewa.com/careers"},
+    {"id": 23, "companyId": "renewa", "title": "Electrical Engineer", "department": "engineering", "location": "Houston, TX", "posted": "2d ago", "url": "https://renewa.com/careers"},
+    {"id": 24, "companyId": "skyfi", "title": "Satellite Data Engineer", "department": "engineering", "location": "Remote", "posted": "1d ago", "url": "https://skyfi.com/careers"},
+    {"id": 25, "companyId": "skyfi", "title": "Growth Marketing Manager", "department": "sales", "location": "Austin, TX", "posted": "4d ago", "url": "https://skyfi.com/careers"}
+  ],
+  "updated": "2026-01-17T00:00:00"
+}
