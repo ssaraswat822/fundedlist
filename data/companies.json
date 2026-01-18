@@ -1,149 +1,594 @@
 {
   "companies": [
     {
-      "name": "AI security firm",
-      "amount": "$40.0M",
-      "round": "Series A",
-      "tagline": "The company used an AI-native platform to help companies fight threats.",
-      "category": "ai",
-      "source": "https://techcrunch.com/category/venture/feed/",
-      "link": "https://techcrunch.com/2026/01/14/ai-security-firm-depthfirst-announces-40-million-series-a/",
-      "published": "Wed, 14 Jan 2026 15:50:17 +0000",
-      "id": "company-1",
-      "daysAgo": "1d ago",
+      "id": "gusto",
+      "name": "Gusto",
+      "tagline": "Provides growing businesses with everything to take care of their team",
+      "amount": "YC Backed",
+      "round": "Growth",
+      "daysAgo": "Batch Winter 2012",
+      "category": "fintech",
       "tags": [
-        "Ai"
+        "B2B",
+        "Payroll"
       ],
-      "investors": []
+      "investors": [
+        "yc"
+      ],
+      "website": "https://gusto.com",
+      "isHiring": true,
+      "teamSize": 2400
     },
     {
-      "name": "Superorganism raises",
-      "amount": "$25.0M",
-      "round": "Funding",
-      "tagline": "Superorganism backs companies across three categories: tech that slows or reverses extinction, startups that operate at the intersection of climate an",
-      "category": "climate",
-      "source": "https://techcrunch.com/category/venture/feed/",
-      "link": "https://techcrunch.com/2026/01/13/superorganism-raises-25m-to-back-biodiversity-startups/",
-      "published": "Tue, 13 Jan 2026 12:30:00 +0000",
-      "id": "company-2",
-      "daysAgo": "1d ago",
+      "id": "amplitude",
+      "name": "Amplitude",
+      "tagline": "Digital Analytics Platform",
+      "amount": "YC Backed",
+      "round": "Growth",
+      "daysAgo": "Batch Winter 2012",
+      "category": "dev-tools",
       "tags": [
-        "Climate"
+        "B2B",
+        "Developer Tools"
       ],
-      "investors": []
+      "investors": [
+        "yc"
+      ],
+      "website": "https://amplitude.com",
+      "isHiring": true,
+      "teamSize": 750
     },
     {
-      "name": "These Gen Zers just raised",
-      "amount": "$11.75M",
-      "round": "Funding",
-      "tagline": "African defense company Terra comes out of stealth with an $11.75M round led by Joe Lonsdale's 8VC.",
+      "id": "stripe",
+      "name": "Stripe",
+      "tagline": "Economic infrastructure for the internet.",
+      "amount": "YC Backed",
+      "round": "Growth",
+      "daysAgo": "Batch Summer 2009",
+      "category": "fintech",
+      "tags": [
+        "Fintech",
+        "Banking as a Service"
+      ],
+      "investors": [
+        "yc"
+      ],
+      "website": "http://stripe.com",
+      "isHiring": true,
+      "teamSize": 7000
+    },
+    {
+      "id": "smartasset",
+      "name": "SmartAsset",
+      "tagline": "Marketplace connecting consumers to financial advisors",
+      "amount": "YC Backed",
+      "round": "Growth",
+      "daysAgo": "Batch Summer 2012",
+      "category": "fintech",
+      "tags": [
+        "Fintech",
+        "Marketplace"
+      ],
+      "investors": [
+        "yc"
+      ],
+      "website": "http://smartasset.com",
+      "isHiring": true,
+      "teamSize": 210
+    },
+    {
+      "id": "zapier",
+      "name": "Zapier",
+      "tagline": "The easiest way to automate your work.",
+      "amount": "YC Backed",
+      "round": "Growth",
+      "daysAgo": "Batch Summer 2012",
+      "category": "dev-tools",
+      "tags": [
+        "B2B",
+        "SaaS"
+      ],
+      "investors": [
+        "yc"
+      ],
+      "website": "http://zapier.com",
+      "isHiring": true,
+      "teamSize": 700
+    },
+    {
+      "id": "instacart",
+      "name": "Instacart",
+      "tagline": "Marketplace for grocery delivery and pickup",
+      "amount": "YC Backed",
+      "round": "Growth",
+      "daysAgo": "Batch Summer 2012",
       "category": "other",
-      "source": "https://techcrunch.com/category/venture/feed/",
-      "link": "https://techcrunch.com/2026/01/12/these-gen-zers-just-raised-11-75m-to-put-africas-defense-back-in-the-hands-of-africans/",
-      "published": "Mon, 12 Jan 2026 08:00:00 +0000",
-      "id": "company-3",
-      "daysAgo": "1d ago",
       "tags": [
-        "Other"
+        "Consumer",
+        "Grocery",
+        "Delivery"
       ],
-      "investors": []
+      "investors": [
+        "yc"
+      ],
+      "website": "https://www.instacart.com",
+      "isHiring": true,
+      "teamSize": 3000
     },
     {
-      "name": "The venture firm that ate Silicon Valley just raised another",
-      "amount": "$15.0B",
-      "round": "Funding",
-      "tagline": "In a blog post published Friday morning, Ben Horowitz writes that \"as the American leader in Venture Capital, the fate of new technology in the United",
-      "category": "ai",
-      "source": "https://techcrunch.com/category/venture/feed/",
-      "link": "https://techcrunch.com/2026/01/09/the-venture-firm-that-ate-silicon-valley/",
-      "published": "Fri, 09 Jan 2026 13:00:00 +0000",
-      "id": "company-4",
-      "daysAgo": "1d ago",
-      "tags": [
-        "Ai"
-      ],
-      "investors": []
-    },
-    {
-      "name": "Discord and Mercor investor Niko Bonatsos departs General Catalyst",
-      "amount": "Undisclosed",
-      "round": "Seed",
-      "tagline": "Bonatsos spent 15 years at GC, and until last year led the firm's seed investing strategy.",
+      "id": "doordash",
+      "name": "DoorDash",
+      "tagline": "Restaurant delivery.",
+      "amount": "YC Backed",
+      "round": "Growth",
+      "daysAgo": "Batch Summer 2013",
       "category": "other",
-      "source": "https://techcrunch.com/category/venture/feed/",
-      "link": "https://techcrunch.com/2026/01/07/discord-and-mercor-investor-niko-bonatsos-departs-general-catalyst-plans-new-vc-firm/",
-      "published": "Wed, 07 Jan 2026 23:31:29 +0000",
-      "id": "company-5",
-      "daysAgo": "1d ago",
       "tags": [
-        "Other"
+        "Consumer",
+        "Marketplace",
+        "E-commerce"
       ],
-      "investors": []
+      "investors": [
+        "yc"
+      ],
+      "website": "http://doordash.com",
+      "isHiring": true,
+      "teamSize": 8600
     },
     {
-      "name": "Shopify competitor Swap raises",
-      "amount": "$100.0M",
-      "round": "Funding",
-      "tagline": "VC firms DST Global and Iconiq are piling into e-commerce startup Swap Commerce, which is going up against Shopify.",
+      "id": "webflow",
+      "name": "Webflow",
+      "tagline": "Professional website design and publishing platform. ",
+      "amount": "YC Backed",
+      "round": "Growth",
+      "daysAgo": "Batch Summer 2013",
+      "category": "dev-tools",
+      "tags": [
+        "B2B",
+        "SaaS",
+        "Design"
+      ],
+      "investors": [
+        "yc"
+      ],
+      "website": "https://webflow.com",
+      "isHiring": true,
+      "teamSize": 600
+    },
+    {
+      "id": "flexport",
+      "name": "Flexport",
+      "tagline": "Platform for global logistics.",
+      "amount": "YC Backed",
+      "round": "Growth",
+      "daysAgo": "Batch Winter 2014",
       "category": "ai",
-      "source": "https://techcrunch.com/category/venture/feed/",
-      "link": "https://techcrunch.com/2026/01/07/shopify-competitor-swap-raises-100m-six-months-after-raising-40m/",
-      "published": "Wed, 07 Jan 2026 19:10:33 +0000",
-      "id": "company-6",
-      "daysAgo": "1d ago",
       "tags": [
-        "Ai"
+        "B2B",
+        "SaaS",
+        "Logistics"
       ],
-      "investors": []
+      "investors": [
+        "yc"
+      ],
+      "website": "https://www.flexport.com/careers/jobs/",
+      "isHiring": true,
+      "teamSize": 3000
     },
     {
-      "name": "LMArena lands",
-      "amount": "$1.7B",
-      "round": "Funding",
-      "tagline": "LMArena, which started as a UC Berkeley research project, has raised about $250 million total and become a unicorn in about seven months.",
+      "id": "algolia",
+      "name": "Algolia",
+      "tagline": "A developer-friendly and enterprise-grade search API.",
+      "amount": "YC Backed",
+      "round": "Growth",
+      "daysAgo": "Batch Winter 2014",
+      "category": "dev-tools",
+      "tags": [
+        "B2B",
+        "Developer Tools",
+        "SaaS"
+      ],
+      "investors": [
+        "yc"
+      ],
+      "website": "http://www.algolia.com",
+      "isHiring": true,
+      "teamSize": 810
+    },
+    {
+      "id": "checkr",
+      "name": "Checkr",
+      "tagline": "People infrastructure for the future of work",
+      "amount": "YC Backed",
+      "round": "Growth",
+      "daysAgo": "Batch Summer 2014",
       "category": "ai",
-      "source": "https://techcrunch.com/category/venture/feed/",
-      "link": "https://techcrunch.com/2026/01/06/lmarena-lands-1-7b-valuation-four-months-after-launching-its-product/",
-      "published": "Tue, 06 Jan 2026 19:35:55 +0000",
-      "id": "company-7",
-      "daysAgo": "1d ago",
       "tags": [
-        "Ai"
+        "B2B",
+        "Artificial Intelligence",
+        "Compliance"
       ],
-      "investors": []
+      "investors": [
+        "yc"
+      ],
+      "website": "http://www.checkr.com",
+      "isHiring": true,
+      "teamSize": 800
     },
     {
-      "name": "How World Cup champion Mario G",
-      "amount": "Undisclosed",
-      "round": "Funding",
-      "tagline": "Companion M, G\u00f6tze\u2019s personal investment vehicle, now has a portfolio of more than 70 companies, two of which became unicorns in 2025",
+      "id": "ginkgo-bioworks",
+      "name": "Ginkgo Bioworks",
+      "tagline": "Our mission is to make biology easier to engineer.",
+      "amount": "YC Backed",
+      "round": "Growth",
+      "daysAgo": "Batch Summer 2014",
+      "category": "health",
+      "tags": [
+        "Healthcare",
+        "Synthetic Biology",
+        "Diagnostics"
+      ],
+      "investors": [
+        "yc"
+      ],
+      "website": "http://ginkgobioworks.com",
+      "isHiring": true,
+      "teamSize": 641
+    },
+    {
+      "id": "equipmentshare",
+      "name": "EquipmentShare",
+      "tagline": "Cloud solutions for the construction industry.",
+      "amount": "YC Backed",
+      "round": "Growth",
+      "daysAgo": "Batch Winter 2015",
       "category": "other",
-      "source": "https://techcrunch.com/category/venture/feed/",
-      "link": "https://techcrunch.com/2026/01/06/how-world-cup-champion-mario-gotze-built-a-parallel-career-as-an-angel-investor/",
-      "published": "Tue, 06 Jan 2026 18:18:02 +0000",
-      "id": "company-8",
-      "daysAgo": "1d ago",
       "tags": [
-        "Other"
+        "Real Estate and Construction",
+        "Construction"
       ],
-      "investors": []
+      "investors": [
+        "yc"
+      ],
+      "website": "https://www.equipmentshare.com",
+      "isHiring": true,
+      "teamSize": 5400
     },
     {
-      "name": "Almost 80 European deep tech university spinouts reached",
-      "amount": "$1.0B",
-      "round": "Funding",
-      "tagline": "According to Dealroom\u2019s European Spinout Report 2025, 76 European deep tech and life sciences spinouts have either reached $1 billion valuations, $100",
-      "category": "climate",
-      "source": "https://techcrunch.com/category/venture/feed/",
-      "link": "https://techcrunch.com/2025/12/30/76-european-deep-tech-university-spinouts-reached-unicorn-or-centaur-status/",
-      "published": "Tue, 30 Dec 2025 18:00:00 +0000",
-      "id": "company-9",
-      "daysAgo": "1d ago",
+      "id": "razorpay",
+      "name": "Razorpay",
+      "tagline": "India's only full-stack financial solutions company for businesses.",
+      "amount": "YC Backed",
+      "round": "Growth",
+      "daysAgo": "Batch Winter 2015",
+      "category": "fintech",
       "tags": [
-        "Climate"
+        "Fintech",
+        "Banking as a Service"
       ],
-      "investors": []
+      "investors": [
+        "yc"
+      ],
+      "website": "https://razorpay.com",
+      "isHiring": true,
+      "teamSize": 2700
+    },
+    {
+      "id": "go1",
+      "name": "Go1",
+      "tagline": "A learning platform that enables you to train your staff or customers.",
+      "amount": "YC Backed",
+      "round": "Growth",
+      "daysAgo": "Batch Summer 2015",
+      "category": "dev-tools",
+      "tags": [
+        "B2B",
+        "eLearning"
+      ],
+      "investors": [
+        "yc"
+      ],
+      "website": "https://go1.com",
+      "isHiring": true,
+      "teamSize": 650
+    },
+    {
+      "id": "podium",
+      "name": "Podium",
+      "tagline": "Get more leads. Make more money. ",
+      "amount": "YC Backed",
+      "round": "Growth",
+      "daysAgo": "Batch Winter 2016",
+      "category": "ai",
+      "tags": [
+        "B2B",
+        "Fintech",
+        "SaaS"
+      ],
+      "investors": [
+        "yc"
+      ],
+      "website": "https://podium.com",
+      "isHiring": true,
+      "teamSize": 1000
+    },
+    {
+      "id": "rappi",
+      "name": "Rappi",
+      "tagline": "On-demand delivery and financial services for Latin America.",
+      "amount": "YC Backed",
+      "round": "Growth",
+      "daysAgo": "Batch Winter 2016",
+      "category": "fintech",
+      "tags": [
+        "Consumer",
+        "Fintech",
+        "Delivery"
+      ],
+      "investors": [
+        "yc"
+      ],
+      "website": "http://www.rappi.com",
+      "isHiring": true,
+      "teamSize": 4800
+    },
+    {
+      "id": "meesho",
+      "name": "Meesho",
+      "tagline": "Democratizing internet commerce for everyone in India",
+      "amount": "YC Backed",
+      "round": "Growth",
+      "daysAgo": "Batch Summer 2016",
+      "category": "ai",
+      "tags": [
+        "B2B",
+        "E-commerce",
+        "Retail"
+      ],
+      "investors": [
+        "yc"
+      ],
+      "website": "http://www.meesho.com",
+      "isHiring": true,
+      "teamSize": 1450
+    },
+    {
+      "id": "scale-ai",
+      "name": "Scale AI",
+      "tagline": "Data-centric infrastructure to accelerate the development of AI ",
+      "amount": "YC Backed",
+      "round": "Growth",
+      "daysAgo": "Batch Summer 2016",
+      "category": "ai",
+      "tags": [
+        "B2B",
+        "Artificial Intelligence",
+        "Machine Learning"
+      ],
+      "investors": [
+        "yc"
+      ],
+      "website": "http://scale.com",
+      "isHiring": true,
+      "teamSize": 500
+    },
+    {
+      "id": "rippling",
+      "name": "Rippling",
+      "tagline": "One place to run all your HR, IT, and Finance. Globally.",
+      "amount": "YC Backed",
+      "round": "Growth",
+      "daysAgo": "Batch Winter 2017",
+      "category": "dev-tools",
+      "tags": [
+        "B2B",
+        "HR Tech"
+      ],
+      "investors": [
+        "yc"
+      ],
+      "website": "http://rippling.com/",
+      "isHiring": true,
+      "teamSize": 2500
+    },
+    {
+      "id": "clipboard",
+      "name": "Clipboard",
+      "tagline": "Connects workplaces with professionals nearby.",
+      "amount": "YC Backed",
+      "round": "Growth",
+      "daysAgo": "Batch Winter 2017",
+      "category": "health",
+      "tags": [
+        "Consumer",
+        "Marketplace",
+        "Consumer Health Services"
+      ],
+      "investors": [
+        "yc"
+      ],
+      "website": "https://www.clipboardhealth.com/careers",
+      "isHiring": true,
+      "teamSize": 800
+    },
+    {
+      "id": "faire",
+      "name": "Faire",
+      "tagline": "The global online platform empowering independent retail.",
+      "amount": "YC Backed",
+      "round": "Growth",
+      "daysAgo": "Batch Winter 2017",
+      "category": "ai",
+      "tags": [
+        "B2B",
+        "Marketplace",
+        "Retail"
+      ],
+      "investors": [
+        "yc"
+      ],
+      "website": "https://www.faire.com/",
+      "isHiring": true,
+      "teamSize": 900
+    },
+    {
+      "id": "flock-safety",
+      "name": "Flock Safety",
+      "tagline": "The first public safety operating system that eliminates crime.",
+      "amount": "YC Backed",
+      "round": "Growth",
+      "daysAgo": "Batch Summer 2017",
+      "category": "ai",
+      "tags": [
+        "B2B",
+        "Hardware",
+        "Machine Learning"
+      ],
+      "investors": [
+        "yc"
+      ],
+      "website": "http://www.flocksafety.com",
+      "isHiring": true,
+      "teamSize": 1000
+    },
+    {
+      "id": "groww",
+      "name": "Groww",
+      "tagline": "Making financial services simple, transparent and delightful. ",
+      "amount": "YC Backed",
+      "round": "Growth",
+      "daysAgo": "Batch Winter 2018",
+      "category": "fintech",
+      "tags": [
+        "Fintech",
+        "India",
+        "Investing"
+      ],
+      "investors": [
+        "yc"
+      ],
+      "website": "https://groww.in",
+      "isHiring": true,
+      "teamSize": 1050
+    },
+    {
+      "id": "deel",
+      "name": "Deel",
+      "tagline": "The all-in-one HR and payroll platform for global teams",
+      "amount": "YC Backed",
+      "round": "Growth",
+      "daysAgo": "Batch Winter 2019",
+      "category": "fintech",
+      "tags": [
+        "B2B",
+        "Fintech",
+        "SaaS"
+      ],
+      "investors": [
+        "yc"
+      ],
+      "website": "https://www.deel.com/",
+      "isHiring": true,
+      "teamSize": 5000
+    },
+    {
+      "id": "odeko",
+      "name": "Odeko",
+      "tagline": "Our operations software makes it easier to run--and grow--your cafe",
+      "amount": "YC Backed",
+      "round": "Growth",
+      "daysAgo": "Batch Summer 2019",
+      "category": "dev-tools",
+      "tags": [
+        "B2B",
+        "Logistics"
+      ],
+      "investors": [
+        "yc"
+      ],
+      "website": "http://www.odeko.com",
+      "isHiring": true,
+      "teamSize": 371
+    },
+    {
+      "id": "whatnot",
+      "name": "Whatnot",
+      "tagline": "Whatnot is the largest livestream shopping platform in the U.S.",
+      "amount": "YC Backed",
+      "round": "Growth",
+      "daysAgo": "Batch Winter 2020",
+      "category": "other",
+      "tags": [
+        "Consumer",
+        "Marketplace",
+        "E-commerce"
+      ],
+      "investors": [
+        "yc"
+      ],
+      "website": "https://www.whatnot.com",
+      "isHiring": true,
+      "teamSize": 731
+    },
+    {
+      "id": "notable-labs",
+      "name": "Notable Labs",
+      "tagline": "Personalized drug discovery for blood cancer.",
+      "amount": "YC Backed",
+      "round": "Growth",
+      "daysAgo": "Batch Winter 2015",
+      "category": "health",
+      "tags": [
+        "Healthcare",
+        "Biotech",
+        "Drug discovery"
+      ],
+      "investors": [
+        "yc"
+      ],
+      "website": "http://notablelabs.com",
+      "isHiring": true,
+      "teamSize": 40
+    },
+    {
+      "id": "rescale",
+      "name": "Rescale",
+      "tagline": "High Performance Computing Built for the Cloud",
+      "amount": "YC Backed",
+      "round": "Growth",
+      "daysAgo": "Batch Winter 2012",
+      "category": "dev-tools",
+      "tags": [
+        "B2B",
+        "Cloud Computing"
+      ],
+      "investors": [
+        "yc"
+      ],
+      "website": "https://rescale.com",
+      "isHiring": true,
+      "teamSize": 250
+    },
+    {
+      "id": "apollo",
+      "name": "Apollo",
+      "tagline": "Apollo helps engineering teams accelerate delivery",
+      "amount": "YC Backed",
+      "round": "Growth",
+      "daysAgo": "Batch Summer 2011",
+      "category": "dev-tools",
+      "tags": [
+        "B2B",
+        "Developer Tools",
+        "Open Source"
+      ],
+      "investors": [
+        "yc"
+      ],
+      "website": "http://apollographql.com/",
+      "isHiring": true,
+      "teamSize": 200
     }
   ],
-  "updated": "2026-01-18T00:53:08.776579"
+  "updated": "2026-01-18T01:12:24.147592"
 }
