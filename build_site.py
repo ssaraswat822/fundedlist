@@ -6,7 +6,6 @@ Run this after the scrapers to update the site.
 
 import json
 import os
-import re
 from datetime import datetime
 
 
@@ -38,40 +37,66 @@ def main():
     with open('index.html', 'r') as f:
         html = f.read()
     
-    # Convert data to JavaScript
-    companies_js = json.dumps(companies, indent=8)
-    vcs_js = json.dumps(vcs, indent=8)
-    jobs_js = json.dumps(jobs, indent=8)
+    # Convert data to JavaScript strings
+    companies_js = json.dumps(companies, indent=8, ensure_ascii=False)
+    vcs_js = json.dumps(vcs, indent=8, ensure_ascii=False)
+    jobs_js = json.dumps(jobs, indent=8, ensure_ascii=False)
     
-    # Replace the data arrays in the HTML
-    # Pattern to find and replace the companies array
-    html = re.sub(
-        r'const companies = \[[\s\S]*?\];',
-        f'const companies = {companies_js};',
-        html
-    )
+    # Find and replace data arrays using string operations (not regex)
+    # This avoids issues with special characters in the JSON
     
-    # Pattern to find and replace the vcs array
-    html = re.sub(
-        r'const vcs = \[[\s\S]*?\];',
-        f'const vcs = {vcs_js};',
-        html
-    )
+    # Replace companies array
+    start_marker = 'const companies = ['
+    start_idx = html.find(start_marker)
+    if start_idx != -1:
+        # Find the closing ];
+        bracket_count = 0
+        end_idx = start_idx + len(start_marker) - 1
+        for i in range(start_idx + len(start_marker) - 1, len(html)):
+            if html[i] == '[':
+                bracket_count += 1
+            elif html[i] == ']':
+                bracket_count -= 1
+                if bracket_count == 0:
+                    end_idx = i + 1
+                    break
+        html = html[:start_idx] + 'const companies = ' + companies_js + ';' + html[end_idx+1:]
     
-    # Pattern to find and replace the jobs array
-    html = re.sub(
-        r'const jobs = \[[\s\S]*?\];',
-        f'const jobs = {jobs_js};',
-        html
-    )
+    # Replace vcs array
+    start_marker = 'const vcs = ['
+    start_idx = html.find(start_marker)
+    if start_idx != -1:
+        bracket_count = 0
+        end_idx = start_idx + len(start_marker) - 1
+        for i in range(start_idx + len(start_marker) - 1, len(html)):
+            if html[i] == '[':
+                bracket_count += 1
+            elif html[i] == ']':
+                bracket_count -= 1
+                if bracket_count == 0:
+                    end_idx = i + 1
+                    break
+        html = html[:start_idx] + 'const vcs = ' + vcs_js + ';' + html[end_idx+1:]
+    
+    # Replace jobs array
+    start_marker = 'const jobs = ['
+    start_idx = html.find(start_marker)
+    if start_idx != -1:
+        bracket_count = 0
+        end_idx = start_idx + len(start_marker) - 1
+        for i in range(start_idx + len(start_marker) - 1, len(html)):
+            if html[i] == '[':
+                bracket_count += 1
+            elif html[i] == ']':
+                bracket_count -= 1
+                if bracket_count == 0:
+                    end_idx = i + 1
+                    break
+        html = html[:start_idx] + 'const jobs = ' + jobs_js + ';' + html[end_idx+1:]
     
     # Update the footer date
     today = datetime.now().strftime('%b %d, %Y')
-    html = re.sub(
-        r'Updated [A-Za-z]+ \d+, \d+',
-        f'Updated {today}',
-        html
-    )
+    html = html.replace('Updated Jan 17, 2026', f'Updated {today}')
     
     # Write the updated HTML
     with open('index.html', 'w') as f:
