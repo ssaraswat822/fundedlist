@@ -392,26 +392,6 @@
       "teamSize": 2500
     },
     {
-      "id": "clipboard",
-      "name": "Clipboard",
-      "tagline": "Connects workplaces with professionals nearby.",
-      "amount": "YC Backed",
-      "round": "Growth",
-      "daysAgo": "Batch Winter 2017",
-      "category": "health",
-      "tags": [
-        "Consumer",
-        "Marketplace",
-        "Consumer Health Services"
-      ],
-      "investors": [
-        "yc"
-      ],
-      "website": "https://www.clipboardhealth.com/careers",
-      "isHiring": true,
-      "teamSize": 800
-    },
-    {
       "id": "faire",
       "name": "Faire",
       "tagline": "The global online platform empowering independent retail.",
@@ -551,6 +531,26 @@
       "teamSize": 40
     },
     {
+      "id": "clipboard",
+      "name": "Clipboard",
+      "tagline": "Connects workplaces with professionals nearby.",
+      "amount": "YC Backed",
+      "round": "Early",
+      "daysAgo": "Batch Winter 2017",
+      "category": "health",
+      "tags": [
+        "Consumer",
+        "Marketplace",
+        "Consumer Health Services"
+      ],
+      "investors": [
+        "yc"
+      ],
+      "website": "https://www.clipboardhealth.com/careers",
+      "isHiring": true,
+      "teamSize": 800
+    },
+    {
       "id": "rescale",
       "name": "Rescale",
       "tagline": "High Performance Computing Built for the Cloud",
@@ -590,5 +590,5 @@
       "teamSize": 200
     }
   ],
-  "updated": "2026-01-20T07:04:39.033343"
+  "updated": "2026-01-21T07:05:15.693545"
 }
