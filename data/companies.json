@@ -77,25 +77,6 @@
       "teamSize": 210
     },
     {
-      "id": "zapier",
-      "name": "Zapier",
-      "tagline": "The easiest way to automate your work.",
-      "amount": "YC Backed",
-      "round": "Growth",
-      "daysAgo": "Batch Summer 2012",
-      "category": "dev-tools",
-      "tags": [
-        "B2B",
-        "SaaS"
-      ],
-      "investors": [
-        "yc"
-      ],
-      "website": "http://zapier.com",
-      "isHiring": true,
-      "teamSize": 700
-    },
-    {
       "id": "instacart",
       "name": "Instacart",
       "tagline": "Marketplace for grocery delivery and pickup",
@@ -392,6 +373,26 @@
       "teamSize": 2500
     },
     {
+      "id": "clipboard",
+      "name": "Clipboard",
+      "tagline": "Connects workplaces with professionals nearby.",
+      "amount": "YC Backed",
+      "round": "Growth",
+      "daysAgo": "Batch Winter 2017",
+      "category": "health",
+      "tags": [
+        "Consumer",
+        "Marketplace",
+        "Consumer Health Services"
+      ],
+      "investors": [
+        "yc"
+      ],
+      "website": "https://www.clipboardhealth.com/careers",
+      "isHiring": true,
+      "teamSize": 800
+    },
+    {
       "id": "faire",
       "name": "Faire",
       "tagline": "The global online platform empowering independent retail.",
@@ -531,24 +532,23 @@
       "teamSize": 40
     },
     {
-      "id": "clipboard",
-      "name": "Clipboard",
-      "tagline": "Connects workplaces with professionals nearby.",
+      "id": "zapier",
+      "name": "Zapier",
+      "tagline": "The easiest way to automate your work.",
       "amount": "YC Backed",
       "round": "Early",
-      "daysAgo": "Batch Winter 2017",
-      "category": "health",
+      "daysAgo": "Batch Summer 2012",
+      "category": "dev-tools",
       "tags": [
-        "Consumer",
-        "Marketplace",
-        "Consumer Health Services"
+        "B2B",
+        "SaaS"
       ],
       "investors": [
         "yc"
       ],
-      "website": "https://www.clipboardhealth.com/careers",
+      "website": "http://zapier.com",
       "isHiring": true,
-      "teamSize": 800
+      "teamSize": 700
     },
     {
       "id": "rescale",
@@ -590,5 +590,5 @@
       "teamSize": 200
     }
   ],
-  "updated": "2026-01-21T07:05:15.693545"
+  "updated": "2026-01-22T07:03:14.219150"
 }
