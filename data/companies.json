@@ -236,25 +236,6 @@
       "teamSize": 641
     },
     {
-      "id": "equipmentshare",
-      "name": "EquipmentShare",
-      "tagline": "Cloud solutions for the construction industry.",
-      "amount": "YC Backed",
-      "round": "Growth",
-      "daysAgo": "Batch Winter 2015",
-      "category": "other",
-      "tags": [
-        "Real Estate and Construction",
-        "Construction"
-      ],
-      "investors": [
-        "yc"
-      ],
-      "website": "https://www.equipmentshare.com",
-      "isHiring": true,
-      "teamSize": 5400
-    },
-    {
       "id": "razorpay",
       "name": "Razorpay",
       "tagline": "India's only full-stack financial solutions company for businesses.",
@@ -432,6 +413,26 @@
       "teamSize": 900
     },
     {
+      "id": "flock-safety",
+      "name": "Flock Safety",
+      "tagline": "The first public safety operating system that eliminates crime.",
+      "amount": "YC Backed",
+      "round": "Growth",
+      "daysAgo": "Batch Summer 2017",
+      "category": "ai",
+      "tags": [
+        "B2B",
+        "Hardware",
+        "Machine Learning"
+      ],
+      "investors": [
+        "yc"
+      ],
+      "website": "http://www.flocksafety.com",
+      "isHiring": true,
+      "teamSize": 1000
+    },
+    {
       "id": "groww",
       "name": "Groww",
       "tagline": "Making financial services simple, transparent and delightful. ",
@@ -531,24 +532,43 @@
       "teamSize": 40
     },
     {
-      "id": "flock-safety",
-      "name": "Flock Safety",
-      "tagline": "The first public safety operating system that eliminates crime.",
+      "id": "shipbob",
+      "name": "ShipBob",
+      "tagline": "Providing Amazon level logistics to e-commerce businesses. ",
       "amount": "YC Backed",
-      "round": "Early",
-      "daysAgo": "Batch Summer 2017",
+      "round": "Growth",
+      "daysAgo": "Batch Summer 2014",
       "category": "ai",
       "tags": [
         "B2B",
-        "Hardware",
-        "Machine Learning"
+        "Logistics",
+        "E-commerce"
       ],
       "investors": [
         "yc"
       ],
-      "website": "http://www.flocksafety.com",
+      "website": "http://shipbob.com",
       "isHiring": true,
-      "teamSize": 1000
+      "teamSize": 1
+    },
+    {
+      "id": "equipmentshare",
+      "name": "EquipmentShare",
+      "tagline": "Cloud solutions for the construction industry.",
+      "amount": "YC Backed",
+      "round": "Early",
+      "daysAgo": "Batch Winter 2015",
+      "category": "other",
+      "tags": [
+        "Real Estate and Construction",
+        "Construction"
+      ],
+      "investors": [
+        "yc"
+      ],
+      "website": "https://www.equipmentshare.com",
+      "isHiring": true,
+      "teamSize": 5400
     },
     {
       "id": "rescale",
@@ -568,27 +588,7 @@
       "website": "https://rescale.com",
       "isHiring": true,
       "teamSize": 250
-    },
-    {
-      "id": "apollo",
-      "name": "Apollo",
-      "tagline": "Apollo helps engineering teams accelerate delivery",
-      "amount": "YC Backed",
-      "round": "Growth",
-      "daysAgo": "Batch Summer 2011",
-      "category": "dev-tools",
-      "tags": [
-        "B2B",
-        "Developer Tools",
-        "Open Source"
-      ],
-      "investors": [
-        "yc"
-      ],
-      "website": "http://apollographql.com/",
-      "isHiring": true,
-      "teamSize": 200
     }
   ],
-  "updated": "2026-01-23T07:02:21.607764"
+  "updated": "2026-01-24T06:56:55.735274"
 }
