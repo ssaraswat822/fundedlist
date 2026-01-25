@@ -236,6 +236,25 @@
       "teamSize": 641
     },
     {
+      "id": "equipmentshare",
+      "name": "EquipmentShare",
+      "tagline": "Cloud solutions for the construction industry.",
+      "amount": "YC Backed",
+      "round": "Growth",
+      "daysAgo": "Batch Winter 2015",
+      "category": "other",
+      "tags": [
+        "Real Estate and Construction",
+        "Construction"
+      ],
+      "investors": [
+        "yc"
+      ],
+      "website": "https://www.equipmentshare.com",
+      "isHiring": true,
+      "teamSize": 5400
+    },
+    {
       "id": "razorpay",
       "name": "Razorpay",
       "tagline": "India's only full-stack financial solutions company for businesses.",
@@ -552,25 +571,6 @@
       "teamSize": 1
     },
     {
-      "id": "equipmentshare",
-      "name": "EquipmentShare",
-      "tagline": "Cloud solutions for the construction industry.",
-      "amount": "YC Backed",
-      "round": "Early",
-      "daysAgo": "Batch Winter 2015",
-      "category": "other",
-      "tags": [
-        "Real Estate and Construction",
-        "Construction"
-      ],
-      "investors": [
-        "yc"
-      ],
-      "website": "https://www.equipmentshare.com",
-      "isHiring": true,
-      "teamSize": 5400
-    },
-    {
       "id": "rescale",
       "name": "Rescale",
       "tagline": "High Performance Computing Built for the Cloud",
@@ -590,5 +590,5 @@
       "teamSize": 250
     }
   ],
-  "updated": "2026-01-24T06:56:55.735274"
+  "updated": "2026-01-25T06:58:33.490321"
 }
