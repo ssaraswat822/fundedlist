@@ -3,831 +3,822 @@
     {
       "id": 1,
       "companyId": "gusto",
-      "title": "Data Engineer",
-      "department": "engineering",
-      "location": "New York, NY",
-      "posted": "7d ago",
+      "title": "Product Designer",
+      "department": "design",
+      "location": "Seattle, WA",
+      "posted": "3d ago",
       "url": "https://gusto.com/careers"
     },
     {
       "id": 2,
       "companyId": "gusto",
-      "title": "Backend Engineer",
-      "department": "engineering",
-      "location": "New York, NY",
-      "posted": "6d ago",
+      "title": "Design Lead",
+      "department": "design",
+      "location": "Remote",
+      "posted": "5d ago",
       "url": "https://gusto.com/careers"
     },
     {
       "id": 3,
       "companyId": "gusto",
-      "title": "Senior Product Manager",
-      "department": "product",
-      "location": "New York, NY",
-      "posted": "6d ago",
+      "title": "Operations Manager",
+      "department": "operations",
+      "location": "Austin, TX",
+      "posted": "3d ago",
       "url": "https://gusto.com/careers"
     },
     {
       "id": 4,
       "companyId": "gusto",
-      "title": "DevOps Engineer",
-      "department": "engineering",
-      "location": "Austin, TX",
-      "posted": "4d ago",
+      "title": "Head of Sales",
+      "department": "sales",
+      "location": "San Francisco, CA",
+      "posted": "3d ago",
       "url": "https://gusto.com/careers"
     },
     {
       "id": 5,
       "companyId": "amplitude",
-      "title": "HR Manager",
-      "department": "operations",
+      "title": "DevOps Engineer",
+      "department": "engineering",
       "location": "Remote",
-      "posted": "6d ago",
+      "posted": "3d ago",
       "url": "https://amplitude.com/careers"
     },
     {
       "id": 6,
       "companyId": "amplitude",
-      "title": "Account Executive",
-      "department": "sales",
+      "title": "Data Engineer",
+      "department": "engineering",
       "location": "San Francisco, CA",
-      "posted": "2d ago",
+      "posted": "6d ago",
       "url": "https://amplitude.com/careers"
     },
     {
       "id": 7,
       "companyId": "amplitude",
-      "title": "Data Engineer",
-      "department": "engineering",
+      "title": "Account Executive",
+      "department": "sales",
       "location": "Boston, MA",
-      "posted": "5d ago",
+      "posted": "3d ago",
       "url": "https://amplitude.com/careers"
     },
     {
       "id": 8,
-      "companyId": "amplitude",
-      "title": "Growth Marketing Manager",
-      "department": "sales",
-      "location": "Boston, MA",
-      "posted": "1d ago",
-      "url": "https://amplitude.com/careers"
+      "companyId": "stripe",
+      "title": "Operations Manager",
+      "department": "operations",
+      "location": "Seattle, WA",
+      "posted": "3d ago",
+      "url": "http://stripe.com/careers"
     },
     {
       "id": 9,
       "companyId": "stripe",
-      "title": "UX Designer",
-      "department": "design",
-      "location": "San Francisco, CA",
-      "posted": "2d ago",
+      "title": "Executive Assistant",
+      "department": "operations",
+      "location": "Boston, MA",
+      "posted": "6d ago",
       "url": "http://stripe.com/careers"
     },
     {
       "id": 10,
-      "companyId": "stripe",
-      "title": "Product Designer",
-      "department": "design",
-      "location": "Boston, MA",
-      "posted": "7d ago",
-      "url": "http://stripe.com/careers"
+      "companyId": "smartasset",
+      "title": "Product Manager",
+      "department": "product",
+      "location": "Remote",
+      "posted": "6d ago",
+      "url": "http://smartasset.com/careers"
     },
     {
       "id": 11,
-      "companyId": "stripe",
-      "title": "Finance Manager",
-      "department": "operations",
-      "location": "New York, NY",
-      "posted": "5d ago",
-      "url": "http://stripe.com/careers"
+      "companyId": "smartasset",
+      "title": "Senior Software Engineer",
+      "department": "engineering",
+      "location": "Seattle, WA",
+      "posted": "1d ago",
+      "url": "http://smartasset.com/careers"
     },
     {
       "id": 12,
-      "companyId": "smartasset",
-      "title": "Finance Manager",
+      "companyId": "zapier",
+      "title": "Executive Assistant",
       "department": "operations",
       "location": "Seattle, WA",
-      "posted": "4d ago",
-      "url": "http://smartasset.com/careers"
+      "posted": "1d ago",
+      "url": "http://zapier.com/careers"
     },
     {
       "id": 13,
-      "companyId": "smartasset",
-      "title": "Senior Software Engineer",
-      "department": "engineering",
-      "location": "Seattle, WA",
-      "posted": "7d ago",
-      "url": "http://smartasset.com/careers"
+      "companyId": "zapier",
+      "title": "HR Manager",
+      "department": "operations",
+      "location": "Remote",
+      "posted": "4d ago",
+      "url": "http://zapier.com/careers"
     },
     {
       "id": 14,
-      "companyId": "smartasset",
+      "companyId": "zapier",
       "title": "Senior Software Engineer",
       "department": "engineering",
-      "location": "New York, NY",
-      "posted": "6d ago",
-      "url": "http://smartasset.com/careers"
+      "location": "San Francisco, CA",
+      "posted": "2d ago",
+      "url": "http://zapier.com/careers"
     },
     {
       "id": 15,
-      "companyId": "smartasset",
-      "title": "Frontend Engineer",
-      "department": "engineering",
-      "location": "New York, NY",
-      "posted": "3d ago",
-      "url": "http://smartasset.com/careers"
+      "companyId": "zapier",
+      "title": "Head of Sales",
+      "department": "sales",
+      "location": "Remote",
+      "posted": "2d ago",
+      "url": "http://zapier.com/careers"
     },
     {
       "id": 16,
-      "companyId": "zapier",
-      "title": "Senior Product Manager",
-      "department": "product",
-      "location": "Austin, TX",
-      "posted": "6d ago",
-      "url": "http://zapier.com/careers"
+      "companyId": "instacart",
+      "title": "Growth Marketing Manager",
+      "department": "sales",
+      "location": "Boston, MA",
+      "posted": "3d ago",
+      "url": "https://www.instacart.com/careers"
     },
     {
       "id": 17,
-      "companyId": "zapier",
-      "title": "Sales Development Rep",
-      "department": "sales",
-      "location": "Seattle, WA",
-      "posted": "7d ago",
-      "url": "http://zapier.com/careers"
+      "companyId": "instacart",
+      "title": "Product Lead",
+      "department": "product",
+      "location": "New York, NY",
+      "posted": "4d ago",
+      "url": "https://www.instacart.com/careers"
     },
     {
       "id": 18,
-      "companyId": "zapier",
-      "title": "Product Manager",
-      "department": "product",
-      "location": "New York, NY",
-      "posted": "3d ago",
-      "url": "http://zapier.com/careers"
+      "companyId": "doordash",
+      "title": "Backend Engineer",
+      "department": "engineering",
+      "location": "Austin, TX",
+      "posted": "7d ago",
+      "url": "http://doordash.com/careers"
     },
     {
       "id": 19,
-      "companyId": "zapier",
-      "title": "Account Executive",
-      "department": "sales",
-      "location": "Austin, TX",
-      "posted": "1d ago",
-      "url": "http://zapier.com/careers"
+      "companyId": "doordash",
+      "title": "Senior Product Manager",
+      "department": "product",
+      "location": "San Francisco, CA",
+      "posted": "2d ago",
+      "url": "http://doordash.com/careers"
     },
     {
       "id": 20,
-      "companyId": "instacart",
-      "title": "HR Manager",
-      "department": "operations",
-      "location": "Seattle, WA",
+      "companyId": "doordash",
+      "title": "Product Designer",
+      "department": "design",
+      "location": "Boston, MA",
       "posted": "5d ago",
-      "url": "https://www.instacart.com/careers"
+      "url": "http://doordash.com/careers"
     },
     {
       "id": 21,
-      "companyId": "instacart",
-      "title": "UX Designer",
-      "department": "design",
-      "location": "Seattle, WA",
-      "posted": "4d ago",
-      "url": "https://www.instacart.com/careers"
+      "companyId": "webflow",
+      "title": "Product Lead",
+      "department": "product",
+      "location": "Austin, TX",
+      "posted": "6d ago",
+      "url": "https://webflow.com/careers"
     },
     {
       "id": 22,
-      "companyId": "instacart",
-      "title": "UX Designer",
-      "department": "design",
-      "location": "Remote",
-      "posted": "5d ago",
-      "url": "https://www.instacart.com/careers"
+      "companyId": "webflow",
+      "title": "Operations Manager",
+      "department": "operations",
+      "location": "San Francisco, CA",
+      "posted": "7d ago",
+      "url": "https://webflow.com/careers"
     },
     {
       "id": 23,
-      "companyId": "instacart",
-      "title": "Product Manager",
-      "department": "product",
+      "companyId": "webflow",
+      "title": "Head of Sales",
+      "department": "sales",
       "location": "Boston, MA",
-      "posted": "5d ago",
-      "url": "https://www.instacart.com/careers"
+      "posted": "1d ago",
+      "url": "https://webflow.com/careers"
     },
     {
       "id": 24,
-      "companyId": "doordash",
-      "title": "Senior Product Manager",
-      "department": "product",
-      "location": "New York, NY",
+      "companyId": "flexport",
+      "title": "Sales Development Rep",
+      "department": "sales",
+      "location": "Seattle, WA",
       "posted": "7d ago",
-      "url": "http://doordash.com/careers"
+      "url": "https://www.flexport.com/careers/jobs//careers"
     },
     {
       "id": 25,
-      "companyId": "doordash",
-      "title": "Sales Development Rep",
+      "companyId": "flexport",
+      "title": "Growth Marketing Manager",
       "department": "sales",
-      "location": "Austin, TX",
-      "posted": "6d ago",
-      "url": "http://doordash.com/careers"
+      "location": "Seattle, WA",
+      "posted": "2d ago",
+      "url": "https://www.flexport.com/careers/jobs//careers"
     },
     {
       "id": 26,
-      "companyId": "doordash",
-      "title": "DevOps Engineer",
-      "department": "engineering",
-      "location": "Remote",
+      "companyId": "algolia",
+      "title": "UX Designer",
+      "department": "design",
+      "location": "Boston, MA",
       "posted": "1d ago",
-      "url": "http://doordash.com/careers"
+      "url": "http://www.algolia.com/careers"
     },
     {
       "id": 27,
-      "companyId": "doordash",
-      "title": "Growth Marketing Manager",
-      "department": "sales",
-      "location": "Seattle, WA",
-      "posted": "6d ago",
-      "url": "http://doordash.com/careers"
+      "companyId": "algolia",
+      "title": "Operations Manager",
+      "department": "operations",
+      "location": "Remote",
+      "posted": "7d ago",
+      "url": "http://www.algolia.com/careers"
     },
     {
       "id": 28,
-      "companyId": "webflow",
-      "title": "HR Manager",
-      "department": "operations",
-      "location": "New York, NY",
-      "posted": "5d ago",
-      "url": "https://webflow.com/careers"
+      "companyId": "algolia",
+      "title": "ML Engineer",
+      "department": "engineering",
+      "location": "Seattle, WA",
+      "posted": "2d ago",
+      "url": "http://www.algolia.com/careers"
     },
     {
       "id": 29,
-      "companyId": "webflow",
-      "title": "Head of Sales",
-      "department": "sales",
+      "companyId": "checkr",
+      "title": "ML Engineer",
+      "department": "engineering",
       "location": "Remote",
-      "posted": "3d ago",
-      "url": "https://webflow.com/careers"
+      "posted": "1d ago",
+      "url": "http://www.checkr.com/careers"
     },
     {
       "id": 30,
-      "companyId": "webflow",
-      "title": "Product Manager",
-      "department": "product",
+      "companyId": "checkr",
+      "title": "ML Engineer",
+      "department": "engineering",
       "location": "Boston, MA",
-      "posted": "3d ago",
-      "url": "https://webflow.com/careers"
+      "posted": "2d ago",
+      "url": "http://www.checkr.com/careers"
     },
     {
       "id": 31,
-      "companyId": "webflow",
-      "title": "HR Manager",
-      "department": "operations",
-      "location": "Boston, MA",
-      "posted": "7d ago",
-      "url": "https://webflow.com/careers"
+      "companyId": "ginkgo-bioworks",
+      "title": "Frontend Engineer",
+      "department": "engineering",
+      "location": "Austin, TX",
+      "posted": "6d ago",
+      "url": "http://ginkgobioworks.com/careers"
     },
     {
       "id": 32,
-      "companyId": "flexport",
-      "title": "Product Lead",
-      "department": "product",
-      "location": "San Francisco, CA",
-      "posted": "3d ago",
-      "url": "https://www.flexport.com/careers/jobs//careers"
+      "companyId": "ginkgo-bioworks",
+      "title": "UX Designer",
+      "department": "design",
+      "location": "Seattle, WA",
+      "posted": "1d ago",
+      "url": "http://ginkgobioworks.com/careers"
     },
     {
       "id": 33,
-      "companyId": "flexport",
-      "title": "Design Lead",
-      "department": "design",
+      "companyId": "ginkgo-bioworks",
+      "title": "DevOps Engineer",
+      "department": "engineering",
       "location": "Seattle, WA",
-      "posted": "2d ago",
-      "url": "https://www.flexport.com/careers/jobs//careers"
+      "posted": "1d ago",
+      "url": "http://ginkgobioworks.com/careers"
     },
     {
       "id": 34,
-      "companyId": "flexport",
-      "title": "Backend Engineer",
-      "department": "engineering",
-      "location": "New York, NY",
-      "posted": "5d ago",
-      "url": "https://www.flexport.com/careers/jobs//careers"
+      "companyId": "ginkgo-bioworks",
+      "title": "Finance Manager",
+      "department": "operations",
+      "location": "Boston, MA",
+      "posted": "4d ago",
+      "url": "http://ginkgobioworks.com/careers"
     },
     {
       "id": 35,
-      "companyId": "flexport",
-      "title": "Growth Marketing Manager",
-      "department": "sales",
-      "location": "Austin, TX",
-      "posted": "5d ago",
-      "url": "https://www.flexport.com/careers/jobs//careers"
+      "companyId": "equipmentshare",
+      "title": "Product Lead",
+      "department": "product",
+      "location": "San Francisco, CA",
+      "posted": "4d ago",
+      "url": "https://www.equipmentshare.com/careers"
     },
     {
       "id": 36,
-      "companyId": "algolia",
-      "title": "Frontend Engineer",
-      "department": "engineering",
-      "location": "New York, NY",
-      "posted": "1d ago",
-      "url": "http://www.algolia.com/careers"
+      "companyId": "equipmentshare",
+      "title": "Product Manager",
+      "department": "product",
+      "location": "Boston, MA",
+      "posted": "5d ago",
+      "url": "https://www.equipmentshare.com/careers"
     },
     {
       "id": 37,
-      "companyId": "algolia",
-      "title": "Head of Sales",
-      "department": "sales",
+      "companyId": "equipmentshare",
+      "title": "Product Manager",
+      "department": "product",
       "location": "Seattle, WA",
-      "posted": "5d ago",
-      "url": "http://www.algolia.com/careers"
+      "posted": "7d ago",
+      "url": "https://www.equipmentshare.com/careers"
     },
     {
       "id": 38,
-      "companyId": "algolia",
-      "title": "DevOps Engineer",
-      "department": "engineering",
-      "location": "San Francisco, CA",
-      "posted": "4d ago",
-      "url": "http://www.algolia.com/careers"
+      "companyId": "equipmentshare",
+      "title": "Executive Assistant",
+      "department": "operations",
+      "location": "Seattle, WA",
+      "posted": "2d ago",
+      "url": "https://www.equipmentshare.com/careers"
     },
     {
       "id": 39,
-      "companyId": "checkr",
-      "title": "HR Manager",
+      "companyId": "razorpay",
+      "title": "Operations Manager",
       "department": "operations",
-      "location": "New York, NY",
-      "posted": "5d ago",
-      "url": "http://www.checkr.com/careers"
+      "location": "Seattle, WA",
+      "posted": "1d ago",
+      "url": "https://razorpay.com/careers"
     },
     {
       "id": 40,
-      "companyId": "checkr",
-      "title": "Design Lead",
-      "department": "design",
-      "location": "Seattle, WA",
-      "posted": "7d ago",
-      "url": "http://www.checkr.com/careers"
+      "companyId": "razorpay",
+      "title": "Backend Engineer",
+      "department": "engineering",
+      "location": "Austin, TX",
+      "posted": "6d ago",
+      "url": "https://razorpay.com/careers"
     },
     {
       "id": 41,
-      "companyId": "checkr",
-      "title": "Data Engineer",
-      "department": "engineering",
-      "location": "Remote",
-      "posted": "4d ago",
-      "url": "http://www.checkr.com/careers"
+      "companyId": "go1",
+      "title": "Senior Product Manager",
+      "department": "product",
+      "location": "New York, NY",
+      "posted": "5d ago",
+      "url": "https://go1.com/careers"
     },
     {
       "id": 42,
-      "companyId": "ginkgo-bioworks",
-      "title": "Senior Product Manager",
-      "department": "product",
+      "companyId": "go1",
+      "title": "Finance Manager",
+      "department": "operations",
       "location": "Remote",
-      "posted": "5d ago",
-      "url": "http://ginkgobioworks.com/careers"
+      "posted": "7d ago",
+      "url": "https://go1.com/careers"
     },
     {
       "id": 43,
-      "companyId": "ginkgo-bioworks",
-      "title": "DevOps Engineer",
-      "department": "engineering",
-      "location": "Austin, TX",
-      "posted": "3d ago",
-      "url": "http://ginkgobioworks.com/careers"
+      "companyId": "go1",
+      "title": "Account Executive",
+      "department": "sales",
+      "location": "Seattle, WA",
+      "posted": "2d ago",
+      "url": "https://go1.com/careers"
     },
     {
       "id": 44,
-      "companyId": "equipmentshare",
-      "title": "HR Manager",
-      "department": "operations",
-      "location": "San Francisco, CA",
-      "posted": "5d ago",
-      "url": "https://www.equipmentshare.com/careers"
+      "companyId": "go1",
+      "title": "Product Lead",
+      "department": "product",
+      "location": "Austin, TX",
+      "posted": "1d ago",
+      "url": "https://go1.com/careers"
     },
     {
       "id": 45,
-      "companyId": "equipmentshare",
-      "title": "Account Executive",
-      "department": "sales",
+      "companyId": "podium",
+      "title": "Product Manager",
+      "department": "product",
       "location": "New York, NY",
-      "posted": "2d ago",
-      "url": "https://www.equipmentshare.com/careers"
+      "posted": "6d ago",
+      "url": "https://podium.com/careers"
     },
     {
       "id": 46,
-      "companyId": "equipmentshare",
-      "title": "Growth Marketing Manager",
+      "companyId": "podium",
+      "title": "Sales Development Rep",
       "department": "sales",
-      "location": "Seattle, WA",
-      "posted": "4d ago",
-      "url": "https://www.equipmentshare.com/careers"
+      "location": "New York, NY",
+      "posted": "3d ago",
+      "url": "https://podium.com/careers"
     },
     {
       "id": 47,
-      "companyId": "equipmentshare",
+      "companyId": "podium",
       "title": "Operations Manager",
       "department": "operations",
-      "location": "Austin, TX",
-      "posted": "5d ago",
-      "url": "https://www.equipmentshare.com/careers"
+      "location": "San Francisco, CA",
+      "posted": "6d ago",
+      "url": "https://podium.com/careers"
     },
     {
       "id": 48,
-      "companyId": "razorpay",
-      "title": "Account Executive",
-      "department": "sales",
-      "location": "Seattle, WA",
-      "posted": "2d ago",
-      "url": "https://razorpay.com/careers"
+      "companyId": "podium",
+      "title": "DevOps Engineer",
+      "department": "engineering",
+      "location": "Boston, MA",
+      "posted": "7d ago",
+      "url": "https://podium.com/careers"
     },
     {
       "id": 49,
-      "companyId": "razorpay",
-      "title": "Account Executive",
-      "department": "sales",
-      "location": "Seattle, WA",
-      "posted": "6d ago",
-      "url": "https://razorpay.com/careers"
+      "companyId": "rappi",
+      "title": "Frontend Engineer",
+      "department": "engineering",
+      "location": "Remote",
+      "posted": "5d ago",
+      "url": "http://www.rappi.com/careers"
     },
     {
       "id": 50,
-      "companyId": "razorpay",
-      "title": "Product Designer",
-      "department": "design",
+      "companyId": "rappi",
+      "title": "Sales Development Rep",
+      "department": "sales",
       "location": "Remote",
-      "posted": "3d ago",
-      "url": "https://razorpay.com/careers"
+      "posted": "5d ago",
+      "url": "http://www.rappi.com/careers"
     },
     {
       "id": 51,
-      "companyId": "go1",
-      "title": "Frontend Engineer",
-      "department": "engineering",
-      "location": "New York, NY",
-      "posted": "5d ago",
-      "url": "https://go1.com/careers"
+      "companyId": "meesho",
+      "title": "Senior Product Manager",
+      "department": "product",
+      "location": "Remote",
+      "posted": "4d ago",
+      "url": "http://www.meesho.com/careers"
     },
     {
       "id": 52,
-      "companyId": "go1",
-      "title": "Senior Product Manager",
-      "department": "product",
-      "location": "Austin, TX",
-      "posted": "6d ago",
-      "url": "https://go1.com/careers"
+      "companyId": "meesho",
+      "title": "DevOps Engineer",
+      "department": "engineering",
+      "location": "Remote",
+      "posted": "5d ago",
+      "url": "http://www.meesho.com/careers"
     },
     {
       "id": 53,
-      "companyId": "go1",
-      "title": "Data Engineer",
-      "department": "engineering",
-      "location": "Remote",
-      "posted": "3d ago",
-      "url": "https://go1.com/careers"
+      "companyId": "meesho",
+      "title": "Executive Assistant",
+      "department": "operations",
+      "location": "Seattle, WA",
+      "posted": "7d ago",
+      "url": "http://www.meesho.com/careers"
     },
     {
       "id": 54,
-      "companyId": "go1",
-      "title": "Growth Marketing Manager",
-      "department": "sales",
-      "location": "Remote",
-      "posted": "2d ago",
-      "url": "https://go1.com/careers"
+      "companyId": "meesho",
+      "title": "Product Lead",
+      "department": "product",
+      "location": "New York, NY",
+      "posted": "5d ago",
+      "url": "http://www.meesho.com/careers"
     },
     {
       "id": 55,
-      "companyId": "podium",
-      "title": "Finance Manager",
-      "department": "operations",
-      "location": "Austin, TX",
-      "posted": "1d ago",
-      "url": "https://podium.com/careers"
+      "companyId": "scale-ai",
+      "title": "Design Lead",
+      "department": "design",
+      "location": "San Francisco, CA",
+      "posted": "7d ago",
+      "url": "http://scale.com/careers"
     },
     {
       "id": 56,
-      "companyId": "podium",
-      "title": "Product Designer",
-      "department": "design",
+      "companyId": "scale-ai",
+      "title": "Product Lead",
+      "department": "product",
       "location": "Remote",
-      "posted": "5d ago",
-      "url": "https://podium.com/careers"
+      "posted": "6d ago",
+      "url": "http://scale.com/careers"
     },
     {
       "id": 57,
-      "companyId": "podium",
+      "companyId": "rippling",
       "title": "Product Manager",
       "department": "product",
-      "location": "Boston, MA",
-      "posted": "1d ago",
-      "url": "https://podium.com/careers"
+      "location": "Austin, TX",
+      "posted": "7d ago",
+      "url": "http://rippling.com//careers"
     },
     {
       "id": 58,
-      "companyId": "rappi",
-      "title": "Product Manager",
-      "department": "product",
-      "location": "Remote",
-      "posted": "7d ago",
-      "url": "http://www.rappi.com/careers"
+      "companyId": "rippling",
+      "title": "Data Engineer",
+      "department": "engineering",
+      "location": "Seattle, WA",
+      "posted": "5d ago",
+      "url": "http://rippling.com//careers"
     },
     {
       "id": 59,
-      "companyId": "rappi",
-      "title": "Frontend Engineer",
-      "department": "engineering",
+      "companyId": "clipboard",
+      "title": "UX Designer",
+      "department": "design",
       "location": "Austin, TX",
-      "posted": "1d ago",
-      "url": "http://www.rappi.com/careers"
+      "posted": "5d ago",
+      "url": "https://www.clipboardhealth.com/careers/careers"
     },
     {
       "id": 60,
-      "companyId": "meesho",
-      "title": "Sales Development Rep",
-      "department": "sales",
-      "location": "New York, NY",
-      "posted": "5d ago",
-      "url": "http://www.meesho.com/careers"
-    },
-    {
-      "id": 61,
-      "companyId": "meesho",
-      "title": "Backend Engineer",
-      "department": "engineering",
-      "location": "Boston, MA",
-      "posted": "6d ago",
-      "url": "http://www.meesho.com/careers"
-    },
-    {
-      "id": 62,
-      "companyId": "meesho",
-      "title": "Product Designer",
-      "department": "design",
-      "location": "Boston, MA",
-      "posted": "5d ago",
-      "url": "http://www.meesho.com/careers"
-    },
-    {
-      "id": 63,
-      "companyId": "scale-ai",
-      "title": "Data Engineer",
-      "department": "engineering",
-      "location": "Austin, TX",
-      "posted": "2d ago",
-      "url": "http://scale.com/careers"
-    },
-    {
-      "id": 64,
-      "companyId": "scale-ai",
-      "title": "HR Manager",
-      "department": "operations",
-      "location": "San Francisco, CA",
-      "posted": "1d ago",
-      "url": "http://scale.com/careers"
-    },
-    {
-      "id": 65,
-      "companyId": "scale-ai",
-      "title": "Sales Development Rep",
-      "department": "sales",
-      "location": "Boston, MA",
-      "posted": "7d ago",
-      "url": "http://scale.com/careers"
-    },
-    {
-      "id": 66,
-      "companyId": "scale-ai",
-      "title": "Senior Product Manager",
-      "department": "product",
-      "location": "Austin, TX",
-      "posted": "5d ago",
-      "url": "http://scale.com/careers"
-    },
-    {
-      "id": 67,
-      "companyId": "rippling",
-      "title": "Growth Marketing Manager",
-      "department": "sales",
-      "location": "Austin, TX",
-      "posted": "4d ago",
-      "url": "http://rippling.com//careers"
-    },
-    {
-      "id": 68,
-      "companyId": "rippling",
-      "title": "HR Manager",
-      "department": "operations",
-      "location": "Seattle, WA",
-      "posted": "1d ago",
-      "url": "http://rippling.com//careers"
-    },
-    {
-      "id": 69,
-      "companyId": "clipboard",
-      "title": "HR Manager",
-      "department": "operations",
-      "location": "Remote",
-      "posted": "1d ago",
-      "url": "https://www.clipboardhealth.com/careers/careers"
-    },
-    {
-      "id": 70,
       "companyId": "clipboard",
       "title": "Design Lead",
       "department": "design",
-      "location": "Austin, TX",
-      "posted": "6d ago",
+      "location": "Boston, MA",
+      "posted": "5d ago",
       "url": "https://www.clipboardhealth.com/careers/careers"
     },
     {
-      "id": 71,
+      "id": 61,
+      "companyId": "clipboard",
+      "title": "Product Manager",
+      "department": "product",
+      "location": "Remote",
+      "posted": "4d ago",
+      "url": "https://www.clipboardhealth.com/careers/careers"
+    },
+    {
+      "id": 62,
+      "companyId": "clipboard",
+      "title": "Product Manager",
+      "department": "product",
+      "location": "San Francisco, CA",
+      "posted": "4d ago",
+      "url": "https://www.clipboardhealth.com/careers/careers"
+    },
+    {
+      "id": 63,
       "companyId": "faire",
-      "title": "Growth Marketing Manager",
+      "title": "Operations Manager",
+      "department": "operations",
+      "location": "Austin, TX",
+      "posted": "6d ago",
+      "url": "https://www.faire.com//careers"
+    },
+    {
+      "id": 64,
+      "companyId": "faire",
+      "title": "Product Designer",
+      "department": "design",
+      "location": "Remote",
+      "posted": "1d ago",
+      "url": "https://www.faire.com//careers"
+    },
+    {
+      "id": 65,
+      "companyId": "faire",
+      "title": "Senior Software Engineer",
+      "department": "engineering",
+      "location": "Boston, MA",
+      "posted": "4d ago",
+      "url": "https://www.faire.com//careers"
+    },
+    {
+      "id": 66,
+      "companyId": "faire",
+      "title": "Account Executive",
       "department": "sales",
       "location": "San Francisco, CA",
       "posted": "5d ago",
       "url": "https://www.faire.com//careers"
     },
     {
-      "id": 72,
-      "companyId": "faire",
-      "title": "Frontend Engineer",
-      "department": "engineering",
-      "location": "New York, NY",
+      "id": 67,
+      "companyId": "flock-safety",
+      "title": "UX Designer",
+      "department": "design",
+      "location": "Remote",
+      "posted": "3d ago",
+      "url": "http://www.flocksafety.com/careers"
+    },
+    {
+      "id": 68,
+      "companyId": "flock-safety",
+      "title": "HR Manager",
+      "department": "operations",
+      "location": "Boston, MA",
       "posted": "1d ago",
-      "url": "https://www.faire.com//careers"
-    },
-    {
-      "id": 73,
-      "companyId": "flock-safety",
-      "title": "Product Manager",
-      "department": "product",
-      "location": "Remote",
-      "posted": "3d ago",
       "url": "http://www.flocksafety.com/careers"
     },
     {
-      "id": 74,
+      "id": 69,
       "companyId": "flock-safety",
-      "title": "HR Manager",
-      "department": "operations",
-      "location": "Remote",
-      "posted": "3d ago",
-      "url": "http://www.flocksafety.com/careers"
-    },
-    {
-      "id": 75,
-      "companyId": "flock-safety",
-      "title": "HR Manager",
-      "department": "operations",
+      "title": "Product Designer",
+      "department": "design",
       "location": "Seattle, WA",
-      "posted": "5d ago",
+      "posted": "2d ago",
       "url": "http://www.flocksafety.com/careers"
     },
     {
-      "id": 76,
+      "id": 70,
       "companyId": "groww",
-      "title": "Senior Product Manager",
+      "title": "Product Lead",
       "department": "product",
       "location": "Remote",
-      "posted": "1d ago",
+      "posted": "4d ago",
       "url": "https://groww.in/careers"
     },
     {
-      "id": 77,
+      "id": 71,
       "companyId": "groww",
-      "title": "Head of Sales",
-      "department": "sales",
-      "location": "Remote",
+      "title": "Finance Manager",
+      "department": "operations",
+      "location": "San Francisco, CA",
       "posted": "6d ago",
       "url": "https://groww.in/careers"
     },
     {
-      "id": 78,
-      "companyId": "deel",
+      "id": 72,
+      "companyId": "groww",
       "title": "HR Manager",
       "department": "operations",
+      "location": "San Francisco, CA",
+      "posted": "2d ago",
+      "url": "https://groww.in/careers"
+    },
+    {
+      "id": 73,
+      "companyId": "deel",
+      "title": "DevOps Engineer",
+      "department": "engineering",
       "location": "Seattle, WA",
-      "posted": "4d ago",
+      "posted": "7d ago",
       "url": "https://www.deel.com//careers"
     },
     {
-      "id": 79,
+      "id": 74,
       "companyId": "deel",
-      "title": "Product Lead",
-      "department": "product",
-      "location": "Seattle, WA",
+      "title": "Senior Software Engineer",
+      "department": "engineering",
+      "location": "Austin, TX",
+      "posted": "5d ago",
+      "url": "https://www.deel.com//careers"
+    },
+    {
+      "id": 75,
+      "companyId": "deel",
+      "title": "Product Designer",
+      "department": "design",
+      "location": "Boston, MA",
+      "posted": "7d ago",
+      "url": "https://www.deel.com//careers"
+    },
+    {
+      "id": 76,
+      "companyId": "deel",
+      "title": "Sales Development Rep",
+      "department": "sales",
+      "location": "Remote",
       "posted": "2d ago",
       "url": "https://www.deel.com//careers"
     },
     {
-      "id": 80,
+      "id": 77,
       "companyId": "odeko",
-      "title": "Account Executive",
-      "department": "sales",
-      "location": "Seattle, WA",
+      "title": "Product Designer",
+      "department": "design",
+      "location": "Boston, MA",
+      "posted": "4d ago",
+      "url": "http://www.odeko.com/careers"
+    },
+    {
+      "id": 78,
+      "companyId": "odeko",
+      "title": "Backend Engineer",
+      "department": "engineering",
+      "location": "San Francisco, CA",
       "posted": "5d ago",
       "url": "http://www.odeko.com/careers"
     },
     {
-      "id": 81,
+      "id": 79,
       "companyId": "odeko",
-      "title": "Product Lead",
-      "department": "product",
-      "location": "Remote",
-      "posted": "3d ago",
+      "title": "Growth Marketing Manager",
+      "department": "sales",
+      "location": "San Francisco, CA",
+      "posted": "4d ago",
       "url": "http://www.odeko.com/careers"
+    },
+    {
+      "id": 80,
+      "companyId": "whatnot",
+      "title": "Account Executive",
+      "department": "sales",
+      "location": "San Francisco, CA",
+      "posted": "5d ago",
+      "url": "https://www.whatnot.com/careers"
+    },
+    {
+      "id": 81,
+      "companyId": "whatnot",
+      "title": "Design Lead",
+      "department": "design",
+      "location": "Boston, MA",
+      "posted": "3d ago",
+      "url": "https://www.whatnot.com/careers"
     },
     {
       "id": 82,
       "companyId": "whatnot",
-      "title": "Design Lead",
-      "department": "design",
-      "location": "San Francisco, CA",
+      "title": "Executive Assistant",
+      "department": "operations",
+      "location": "Remote",
       "posted": "1d ago",
       "url": "https://www.whatnot.com/careers"
     },
     {
       "id": 83,
-      "companyId": "whatnot",
+      "companyId": "notable-labs",
       "title": "Product Manager",
       "department": "product",
-      "location": "Boston, MA",
-      "posted": "4d ago",
-      "url": "https://www.whatnot.com/careers"
-    },
-    {
-      "id": 84,
-      "companyId": "whatnot",
-      "title": "Product Manager",
-      "department": "product",
-      "location": "Austin, TX",
-      "posted": "7d ago",
-      "url": "https://www.whatnot.com/careers"
-    },
-    {
-      "id": 85,
-      "companyId": "whatnot",
-      "title": "Operations Manager",
-      "department": "operations",
       "location": "Remote",
-      "posted": "3d ago",
-      "url": "https://www.whatnot.com/careers"
-    },
-    {
-      "id": 86,
-      "companyId": "notable-labs",
-      "title": "Product Lead",
-      "department": "product",
-      "location": "New York, NY",
-      "posted": "3d ago",
-      "url": "http://notablelabs.com/careers"
-    },
-    {
-      "id": 87,
-      "companyId": "notable-labs",
-      "title": "Design Lead",
-      "department": "design",
-      "location": "Seattle, WA",
-      "posted": "2d ago",
-      "url": "http://notablelabs.com/careers"
-    },
-    {
-      "id": 88,
-      "companyId": "notable-labs",
-      "title": "Operations Manager",
-      "department": "operations",
-      "location": "Seattle, WA",
       "posted": "6d ago",
       "url": "http://notablelabs.com/careers"
     },
     {
-      "id": 89,
+      "id": 84,
+      "companyId": "notable-labs",
+      "title": "Growth Marketing Manager",
+      "department": "sales",
+      "location": "San Francisco, CA",
+      "posted": "2d ago",
+      "url": "http://notablelabs.com/careers"
+    },
+    {
+      "id": 85,
       "companyId": "shipbob",
-      "title": "Backend Engineer",
-      "department": "engineering",
-      "location": "Remote",
-      "posted": "7d ago",
+      "title": "Finance Manager",
+      "department": "operations",
+      "location": "Austin, TX",
+      "posted": "1d ago",
       "url": "http://shipbob.com/careers"
     },
     {
-      "id": 90,
+      "id": 86,
       "companyId": "shipbob",
-      "title": "Operations Manager",
-      "department": "operations",
-      "location": "New York, NY",
-      "posted": "4d ago",
+      "title": "Growth Marketing Manager",
+      "department": "sales",
+      "location": "Seattle, WA",
+      "posted": "2d ago",
       "url": "http://shipbob.com/careers"
+    },
+    {
+      "id": 87,
+      "companyId": "shipbob",
+      "title": "Head of Sales",
+      "department": "sales",
+      "location": "Austin, TX",
+      "posted": "6d ago",
+      "url": "http://shipbob.com/careers"
+    },
+    {
+      "id": 88,
+      "companyId": "shipbob",
+      "title": "Finance Manager",
+      "department": "operations",
+      "location": "Boston, MA",
+      "posted": "5d ago",
+      "url": "http://shipbob.com/careers"
+    },
+    {
+      "id": 89,
+      "companyId": "rescale",
+      "title": "Backend Engineer",
+      "department": "engineering",
+      "location": "Austin, TX",
+      "posted": "1d ago",
+      "url": "https://rescale.com/careers"
+    },
+    {
+      "id": 90,
+      "companyId": "rescale",
+      "title": "Growth Marketing Manager",
+      "department": "sales",
+      "location": "Austin, TX",
+      "posted": "6d ago",
+      "url": "https://rescale.com/careers"
     },
     {
       "id": 91,
       "companyId": "rescale",
-      "title": "Head of Sales",
-      "department": "sales",
-      "location": "Austin, TX",
-      "posted": "2d ago",
-      "url": "https://rescale.com/careers"
-    },
-    {
-      "id": 92,
-      "companyId": "rescale",
-      "title": "Executive Assistant",
+      "title": "Operations Manager",
       "department": "operations",
-      "location": "Austin, TX",
-      "posted": "1d ago",
+      "location": "Seattle, WA",
+      "posted": "5d ago",
       "url": "https://rescale.com/careers"
     }
   ],
-  "updated": "2026-01-27T07:03:37.597168"
+  "updated": "2026-01-28T07:03:15.225553"
 }
