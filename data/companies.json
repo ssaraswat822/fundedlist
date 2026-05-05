@@ -39,6 +39,25 @@
       "teamSize": 750
     },
     {
+      "id": "goat-group",
+      "name": "GOAT Group",
+      "tagline": "Platform for the greatest products from the past, present and future.",
+      "amount": "YC Backed",
+      "round": "Growth",
+      "daysAgo": "Batch Winter 2011",
+      "category": "other",
+      "tags": [
+        "Consumer",
+        "Marketplace"
+      ],
+      "investors": [
+        "yc"
+      ],
+      "website": "https://www.goatgroup.com/",
+      "isHiring": true,
+      "teamSize": 1600
+    },
+    {
       "id": "stripe",
       "name": "Stripe",
       "tagline": "Economic infrastructure for the internet.",
@@ -409,7 +428,7 @@
       ],
       "website": "https://www.clipboardhealth.com/careers",
       "isHiring": true,
-      "teamSize": 800
+      "teamSize": 1000
     },
     {
       "id": "faire",
@@ -569,26 +588,7 @@
       "website": "http://shipbob.com",
       "isHiring": true,
       "teamSize": 1
-    },
-    {
-      "id": "rescale",
-      "name": "Rescale",
-      "tagline": "High Performance Computing Built for the Cloud",
-      "amount": "YC Backed",
-      "round": "Growth",
-      "daysAgo": "Batch Winter 2012",
-      "category": "dev-tools",
-      "tags": [
-        "B2B",
-        "Cloud Computing"
-      ],
-      "investors": [
-        "yc"
-      ],
-      "website": "https://rescale.com",
-      "isHiring": true,
-      "teamSize": 250
     }
   ],
-  "updated": "2026-05-04T08:22:24.397193"
+  "updated": "2026-05-05T08:00:26.322385"
 }
