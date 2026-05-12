@@ -413,7 +413,7 @@
     {
       "id": "clipboard",
       "name": "Clipboard",
-      "tagline": "Connects workplaces with professionals nearby.",
+      "tagline": "Every shift, Covered.",
       "amount": "YC Backed",
       "round": "Growth",
       "daysAgo": "Batch Winter 2017",
@@ -426,7 +426,7 @@
       "investors": [
         "yc"
       ],
-      "website": "https://www.clipboardhealth.com/careers",
+      "website": "https://www.clipboardworks.com/careers",
       "isHiring": true,
       "teamSize": 1000
     },
@@ -590,5 +590,5 @@
       "teamSize": 1
     }
   ],
-  "updated": "2026-05-11T09:30:09.611662"
+  "updated": "2026-05-12T08:31:14.172221"
 }
