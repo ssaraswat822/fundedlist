@@ -471,26 +471,6 @@
       "teamSize": 1000
     },
     {
-      "id": "groww",
-      "name": "Groww",
-      "tagline": "Making financial services simple, transparent and delightful. ",
-      "amount": "YC Backed",
-      "round": "Growth",
-      "daysAgo": "Batch Winter 2018",
-      "category": "fintech",
-      "tags": [
-        "Fintech",
-        "India",
-        "Investing"
-      ],
-      "investors": [
-        "yc"
-      ],
-      "website": "https://groww.in",
-      "isHiring": true,
-      "teamSize": 1050
-    },
-    {
       "id": "deel",
       "name": "Deel",
       "tagline": "The all-in-one HR and payroll platform for global teams",
@@ -588,7 +568,27 @@
       "website": "http://shipbob.com",
       "isHiring": true,
       "teamSize": 1
+    },
+    {
+      "id": "groww",
+      "name": "Groww",
+      "tagline": "Making financial services simple, transparent and delightful. ",
+      "amount": "YC Backed",
+      "round": "Early",
+      "daysAgo": "Batch Winter 2018",
+      "category": "fintech",
+      "tags": [
+        "Fintech",
+        "India",
+        "Investing"
+      ],
+      "investors": [
+        "yc"
+      ],
+      "website": "https://groww.in",
+      "isHiring": true,
+      "teamSize": 1050
     }
   ],
-  "updated": "2026-06-08T10:25:01.608286"
+  "updated": "2026-06-09T09:30:42.307463"
 }
