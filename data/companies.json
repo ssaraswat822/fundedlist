@@ -332,6 +332,26 @@
       "teamSize": 1000
     },
     {
+      "id": "rappi",
+      "name": "Rappi",
+      "tagline": "On-demand delivery and financial services for Latin America.",
+      "amount": "YC Backed",
+      "round": "Growth",
+      "daysAgo": "Batch Winter 2016",
+      "category": "fintech",
+      "tags": [
+        "Consumer",
+        "Fintech",
+        "Delivery"
+      ],
+      "investors": [
+        "yc"
+      ],
+      "website": "http://www.rappi.com",
+      "isHiring": true,
+      "teamSize": 4800
+    },
+    {
       "id": "meesho",
       "name": "Meesho",
       "tagline": "Democratizing internet commerce for everyone in India",
@@ -568,27 +588,7 @@
       "website": "http://shipbob.com",
       "isHiring": true,
       "teamSize": 1
-    },
-    {
-      "id": "rappi",
-      "name": "Rappi",
-      "tagline": "On-demand delivery and financial services for Latin America.",
-      "amount": "YC Backed",
-      "round": "Early",
-      "daysAgo": "Batch Winter 2016",
-      "category": "fintech",
-      "tags": [
-        "Consumer",
-        "Fintech",
-        "Delivery"
-      ],
-      "investors": [
-        "yc"
-      ],
-      "website": "http://www.rappi.com",
-      "isHiring": true,
-      "teamSize": 4800
     }
   ],
-  "updated": "2026-07-18T07:39:34.489508"
+  "updated": "2026-07-19T08:05:51.935573"
 }
