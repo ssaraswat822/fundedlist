@@ -215,6 +215,26 @@
       "teamSize": 810
     },
     {
+      "id": "checkr",
+      "name": "Checkr",
+      "tagline": "People infrastructure for the future of work",
+      "amount": "YC Backed",
+      "round": "Growth",
+      "daysAgo": "Batch Summer 2014",
+      "category": "ai",
+      "tags": [
+        "B2B",
+        "Artificial Intelligence",
+        "Compliance"
+      ],
+      "investors": [
+        "yc"
+      ],
+      "website": "http://www.checkr.com",
+      "isHiring": true,
+      "teamSize": 800
+    },
+    {
       "id": "ginkgo-bioworks",
       "name": "Ginkgo Bioworks",
       "tagline": "Our mission is to make biology easier to engineer.",
@@ -550,26 +570,6 @@
       "teamSize": 40
     },
     {
-      "id": "checkr",
-      "name": "Checkr",
-      "tagline": "People infrastructure for the future of work",
-      "amount": "YC Backed",
-      "round": "Early",
-      "daysAgo": "Batch Summer 2014",
-      "category": "ai",
-      "tags": [
-        "B2B",
-        "Artificial Intelligence",
-        "Compliance"
-      ],
-      "investors": [
-        "yc"
-      ],
-      "website": "http://www.checkr.com",
-      "isHiring": true,
-      "teamSize": 800
-    },
-    {
       "id": "shipbob",
       "name": "ShipBob",
       "tagline": "Providing Amazon level logistics to e-commerce businesses. ",
@@ -590,5 +590,5 @@
       "teamSize": 1
     }
   ],
-  "updated": "2026-07-21T08:14:35.998795"
+  "updated": "2026-07-22T08:15:10.518350"
 }
