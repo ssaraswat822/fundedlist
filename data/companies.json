@@ -530,6 +530,26 @@
       "teamSize": 371
     },
     {
+      "id": "whatnot",
+      "name": "Whatnot",
+      "tagline": "Whatnot is the largest livestream shopping platform in the U.S.",
+      "amount": "YC Backed",
+      "round": "Growth",
+      "daysAgo": "Batch Winter 2020",
+      "category": "other",
+      "tags": [
+        "Consumer",
+        "Marketplace",
+        "E-commerce"
+      ],
+      "investors": [
+        "yc"
+      ],
+      "website": "https://www.whatnot.com",
+      "isHiring": true,
+      "teamSize": 731
+    },
+    {
       "id": "notable-labs",
       "name": "Notable Labs",
       "tagline": "Personalized drug discovery for blood cancer.",
@@ -568,27 +588,7 @@
       "website": "http://shipbob.com",
       "isHiring": true,
       "teamSize": 1
-    },
-    {
-      "id": "whatnot",
-      "name": "Whatnot",
-      "tagline": "Whatnot is the largest livestream shopping platform in the U.S.",
-      "amount": "YC Backed",
-      "round": "Early",
-      "daysAgo": "Batch Winter 2020",
-      "category": "other",
-      "tags": [
-        "Consumer",
-        "Marketplace",
-        "E-commerce"
-      ],
-      "investors": [
-        "yc"
-      ],
-      "website": "https://www.whatnot.com",
-      "isHiring": true,
-      "teamSize": 731
     }
   ],
-  "updated": "2026-08-06T08:23:33.019743"
+  "updated": "2026-08-07T07:04:23.821728"
 }
