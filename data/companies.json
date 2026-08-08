@@ -77,25 +77,6 @@
       "teamSize": 7000
     },
     {
-      "id": "smartasset",
-      "name": "SmartAsset",
-      "tagline": "Marketplace connecting consumers to financial advisors",
-      "amount": "YC Backed",
-      "round": "Growth",
-      "daysAgo": "Batch Summer 2012",
-      "category": "fintech",
-      "tags": [
-        "Fintech",
-        "Marketplace"
-      ],
-      "investors": [
-        "yc"
-      ],
-      "website": "http://smartasset.com",
-      "isHiring": true,
-      "teamSize": 210
-    },
-    {
       "id": "zapier",
       "name": "Zapier",
       "tagline": "The easiest way to automate your work.",
@@ -588,7 +569,26 @@
       "website": "http://shipbob.com",
       "isHiring": true,
       "teamSize": 1
+    },
+    {
+      "id": "rescale",
+      "name": "Rescale",
+      "tagline": "High Performance Computing Built for the Cloud",
+      "amount": "YC Backed",
+      "round": "Growth",
+      "daysAgo": "Batch Winter 2012",
+      "category": "dev-tools",
+      "tags": [
+        "B2B",
+        "Cloud Computing"
+      ],
+      "investors": [
+        "yc"
+      ],
+      "website": "https://rescale.com",
+      "isHiring": true,
+      "teamSize": 250
     }
   ],
-  "updated": "2026-08-07T07:04:23.821728"
+  "updated": "2026-08-08T06:40:08.931306"
 }
