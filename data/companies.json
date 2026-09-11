@@ -333,6 +333,26 @@
       "teamSize": 4800
     },
     {
+      "id": "meesho",
+      "name": "Meesho",
+      "tagline": "Democratizing internet commerce for everyone in India",
+      "amount": "YC Backed",
+      "round": "Growth",
+      "daysAgo": "Batch Summer 2016",
+      "category": "ai",
+      "tags": [
+        "B2B",
+        "E-commerce",
+        "Retail"
+      ],
+      "investors": [
+        "yc"
+      ],
+      "website": "http://www.meesho.com",
+      "isHiring": true,
+      "teamSize": 1450
+    },
+    {
       "id": "scale-ai",
       "name": "Scale AI",
       "tagline": "Data-centric infrastructure to accelerate the development of AI ",
@@ -491,26 +511,6 @@
       "teamSize": 371
     },
     {
-      "id": "whatnot",
-      "name": "Whatnot",
-      "tagline": "Whatnot is the largest livestream shopping platform in the U.S.",
-      "amount": "YC Backed",
-      "round": "Growth",
-      "daysAgo": "Batch Winter 2020",
-      "category": "other",
-      "tags": [
-        "Consumer",
-        "Marketplace",
-        "E-commerce"
-      ],
-      "investors": [
-        "yc"
-      ],
-      "website": "https://www.whatnot.com",
-      "isHiring": true,
-      "teamSize": 731
-    },
-    {
       "id": "notable-labs",
       "name": "Notable Labs",
       "tagline": "Personalized drug discovery for blood cancer.",
@@ -551,26 +551,6 @@
       "teamSize": 1
     },
     {
-      "id": "meesho",
-      "name": "Meesho",
-      "tagline": "Democratizing internet commerce for everyone in India",
-      "amount": "YC Backed",
-      "round": "Early",
-      "daysAgo": "Batch Summer 2016",
-      "category": "ai",
-      "tags": [
-        "B2B",
-        "E-commerce",
-        "Retail"
-      ],
-      "investors": [
-        "yc"
-      ],
-      "website": "http://www.meesho.com",
-      "isHiring": true,
-      "teamSize": 1450
-    },
-    {
       "id": "rescale",
       "name": "Rescale",
       "tagline": "High Performance Computing Built for the Cloud",
@@ -588,7 +568,27 @@
       "website": "https://rescale.com",
       "isHiring": true,
       "teamSize": 250
+    },
+    {
+      "id": "apollo",
+      "name": "Apollo",
+      "tagline": "Apollo helps engineering teams accelerate delivery",
+      "amount": "YC Backed",
+      "round": "Growth",
+      "daysAgo": "Batch Summer 2011",
+      "category": "dev-tools",
+      "tags": [
+        "B2B",
+        "Developer Tools",
+        "Open Source"
+      ],
+      "investors": [
+        "yc"
+      ],
+      "website": "http://apollographql.com/",
+      "isHiring": true,
+      "teamSize": 200
     }
   ],
-  "updated": "2026-09-10T10:23:26.964807"
+  "updated": "2026-09-11T10:25:13.612673"
 }
