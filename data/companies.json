@@ -511,6 +511,26 @@
       "teamSize": 371
     },
     {
+      "id": "whatnot",
+      "name": "Whatnot",
+      "tagline": "Whatnot is the largest livestream shopping platform in the U.S.",
+      "amount": "YC Backed",
+      "round": "Growth",
+      "daysAgo": "Batch Winter 2020",
+      "category": "other",
+      "tags": [
+        "Consumer",
+        "Marketplace",
+        "E-commerce"
+      ],
+      "investors": [
+        "yc"
+      ],
+      "website": "https://www.whatnot.com/careers/discover",
+      "isHiring": true,
+      "teamSize": 1500
+    },
+    {
       "id": "notable-labs",
       "name": "Notable Labs",
       "tagline": "Personalized drug discovery for blood cancer.",
@@ -551,26 +571,6 @@
       "teamSize": 1
     },
     {
-      "id": "whatnot",
-      "name": "Whatnot",
-      "tagline": "Whatnot is the largest livestream shopping platform in the U.S.",
-      "amount": "YC Backed",
-      "round": "Early",
-      "daysAgo": "Batch Winter 2020",
-      "category": "other",
-      "tags": [
-        "Consumer",
-        "Marketplace",
-        "E-commerce"
-      ],
-      "investors": [
-        "yc"
-      ],
-      "website": "https://www.whatnot.com/careers/discover",
-      "isHiring": true,
-      "teamSize": 1500
-    },
-    {
       "id": "rescale",
       "name": "Rescale",
       "tagline": "High Performance Computing Built for the Cloud",
@@ -590,5 +590,5 @@
       "teamSize": 250
     }
   ],
-  "updated": "2026-09-18T10:23:36.120767"
+  "updated": "2026-09-19T10:08:19.656649"
 }
