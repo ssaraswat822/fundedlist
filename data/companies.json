@@ -313,6 +313,46 @@
       "teamSize": 1000
     },
     {
+      "id": "rappi",
+      "name": "Rappi",
+      "tagline": "On-demand delivery and financial services for Latin America.",
+      "amount": "YC Backed",
+      "round": "Growth",
+      "daysAgo": "Batch Winter 2016",
+      "category": "fintech",
+      "tags": [
+        "Consumer",
+        "Fintech",
+        "Delivery"
+      ],
+      "investors": [
+        "yc"
+      ],
+      "website": "http://www.rappi.com",
+      "isHiring": true,
+      "teamSize": 4800
+    },
+    {
+      "id": "meesho",
+      "name": "Meesho",
+      "tagline": "Democratizing internet commerce for everyone in India",
+      "amount": "YC Backed",
+      "round": "Growth",
+      "daysAgo": "Batch Summer 2016",
+      "category": "ai",
+      "tags": [
+        "B2B",
+        "E-commerce",
+        "Retail"
+      ],
+      "investors": [
+        "yc"
+      ],
+      "website": "http://www.meesho.com",
+      "isHiring": true,
+      "teamSize": 1450
+    },
+    {
       "id": "scale-ai",
       "name": "Scale AI",
       "tagline": "Data-centric infrastructure to accelerate the development of AI ",
@@ -531,46 +571,6 @@
       "teamSize": 1
     },
     {
-      "id": "rappi",
-      "name": "Rappi",
-      "tagline": "On-demand delivery and financial services for Latin America.",
-      "amount": "YC Backed",
-      "round": "Early",
-      "daysAgo": "Batch Winter 2016",
-      "category": "fintech",
-      "tags": [
-        "Consumer",
-        "Fintech",
-        "Delivery"
-      ],
-      "investors": [
-        "yc"
-      ],
-      "website": "http://www.rappi.com",
-      "isHiring": true,
-      "teamSize": 4800
-    },
-    {
-      "id": "meesho",
-      "name": "Meesho",
-      "tagline": "Democratizing internet commerce for everyone in India",
-      "amount": "YC Backed",
-      "round": "Early",
-      "daysAgo": "Batch Summer 2016",
-      "category": "ai",
-      "tags": [
-        "B2B",
-        "E-commerce",
-        "Retail"
-      ],
-      "investors": [
-        "yc"
-      ],
-      "website": "http://www.meesho.com",
-      "isHiring": true,
-      "teamSize": 1450
-    },
-    {
       "id": "rescale",
       "name": "Rescale",
       "tagline": "High Performance Computing Built for the Cloud",
@@ -590,5 +590,5 @@
       "teamSize": 250
     }
   ],
-  "updated": "2026-10-23T10:51:37.386026"
+  "updated": "2026-10-24T10:06:01.573132"
 }
