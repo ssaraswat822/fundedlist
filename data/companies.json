@@ -432,26 +432,6 @@
       "teamSize": 900
     },
     {
-      "id": "flock-safety",
-      "name": "Flock Safety",
-      "tagline": "The first public safety operating system that eliminates crime.",
-      "amount": "YC Backed",
-      "round": "Growth",
-      "daysAgo": "Batch Summer 2017",
-      "category": "ai",
-      "tags": [
-        "B2B",
-        "Hardware",
-        "Machine Learning"
-      ],
-      "investors": [
-        "yc"
-      ],
-      "website": "http://www.flocksafety.com",
-      "isHiring": true,
-      "teamSize": 1000
-    },
-    {
       "id": "groww",
       "name": "Groww",
       "tagline": "Making financial services simple, transparent and delightful. ",
@@ -588,7 +568,27 @@
       "website": "https://rescale.com",
       "isHiring": true,
       "teamSize": 250
+    },
+    {
+      "id": "apollo",
+      "name": "Apollo",
+      "tagline": "Apollo helps engineering teams accelerate delivery",
+      "amount": "YC Backed",
+      "round": "Growth",
+      "daysAgo": "Batch Summer 2011",
+      "category": "dev-tools",
+      "tags": [
+        "B2B",
+        "Developer Tools",
+        "Open Source"
+      ],
+      "investors": [
+        "yc"
+      ],
+      "website": "http://apollographql.com/",
+      "isHiring": true,
+      "teamSize": 200
     }
   ],
-  "updated": "2026-11-09T14:54:28.574198"
+  "updated": "2026-11-10T14:07:02.726814"
 }
