@@ -531,26 +531,6 @@
       "teamSize": 40
     },
     {
-      "id": "shipbob",
-      "name": "ShipBob",
-      "tagline": "Providing Amazon level logistics to e-commerce businesses. ",
-      "amount": "YC Backed",
-      "round": "Growth",
-      "daysAgo": "Batch Summer 2014",
-      "category": "ai",
-      "tags": [
-        "B2B",
-        "Logistics",
-        "E-commerce"
-      ],
-      "investors": [
-        "yc"
-      ],
-      "website": "http://shipbob.com",
-      "isHiring": true,
-      "teamSize": 1
-    },
-    {
       "id": "rescale",
       "name": "Rescale",
       "tagline": "High Performance Computing Built for the Cloud",
@@ -588,7 +568,27 @@
       "website": "http://apollographql.com/",
       "isHiring": true,
       "teamSize": 200
+    },
+    {
+      "id": "hackerrank",
+      "name": "HackerRank",
+      "tagline": "Change the world to value skills over pedigree",
+      "amount": "YC Backed",
+      "round": "Growth",
+      "daysAgo": "Batch Summer 2011",
+      "category": "dev-tools",
+      "tags": [
+        "B2B",
+        "Developer Tools",
+        "Recruiting"
+      ],
+      "investors": [
+        "yc"
+      ],
+      "website": "http://hackerrank.com",
+      "isHiring": true,
+      "teamSize": 300
     }
   ],
-  "updated": "2026-11-16T14:30:24.543828"
+  "updated": "2026-11-17T15:20:59.967742"
 }
