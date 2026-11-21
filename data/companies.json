@@ -1,25 +1,6 @@
 {
   "companies": [
     {
-      "id": "gusto",
-      "name": "Gusto",
-      "tagline": "Provides growing businesses with everything to take care of their team",
-      "amount": "YC Backed",
-      "round": "Growth",
-      "daysAgo": "Batch Winter 2012",
-      "category": "fintech",
-      "tags": [
-        "B2B",
-        "Payroll"
-      ],
-      "investors": [
-        "yc"
-      ],
-      "website": "https://gusto.com",
-      "isHiring": true,
-      "teamSize": 2400
-    },
-    {
       "id": "amplitude",
       "name": "Amplitude",
       "tagline": "Digital Analytics Platform",
@@ -56,25 +37,6 @@
       "website": "https://www.goatgroup.com/",
       "isHiring": true,
       "teamSize": 1600
-    },
-    {
-      "id": "stripe",
-      "name": "Stripe",
-      "tagline": "Economic infrastructure for the internet.",
-      "amount": "YC Backed",
-      "round": "Growth",
-      "daysAgo": "Batch Summer 2009",
-      "category": "fintech",
-      "tags": [
-        "Fintech",
-        "Banking as a Service"
-      ],
-      "investors": [
-        "yc"
-      ],
-      "website": "http://stripe.com",
-      "isHiring": true,
-      "teamSize": 7000
     },
     {
       "id": "zapier",
@@ -531,6 +493,44 @@
       "teamSize": 40
     },
     {
+      "id": "gusto",
+      "name": "Gusto",
+      "tagline": "Provides growing businesses with everything to take care of their team",
+      "amount": "YC Backed",
+      "round": "Early",
+      "daysAgo": "Batch Winter 2012",
+      "category": "fintech",
+      "tags": [
+        "B2B",
+        "Payroll"
+      ],
+      "investors": [
+        "yc"
+      ],
+      "website": "https://gusto.com",
+      "isHiring": true,
+      "teamSize": 2400
+    },
+    {
+      "id": "stripe",
+      "name": "Stripe",
+      "tagline": "Economic infrastructure for the internet.",
+      "amount": "YC Backed",
+      "round": "Early",
+      "daysAgo": "Batch Summer 2009",
+      "category": "fintech",
+      "tags": [
+        "Fintech",
+        "Banking as a Service"
+      ],
+      "investors": [
+        "yc"
+      ],
+      "website": "http://stripe.com",
+      "isHiring": true,
+      "teamSize": 7000
+    },
+    {
       "id": "rescale",
       "name": "Rescale",
       "tagline": "High Performance Computing Built for the Cloud",
@@ -590,5 +590,5 @@
       "teamSize": 300
     }
   ],
-  "updated": "2026-11-20T14:44:31.523515"
+  "updated": "2026-11-21T13:59:58.853089"
 }
